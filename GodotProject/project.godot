@@ -10,11 +10,13 @@ config_version=5
 
 [application]
 
-config/name="商域之城：资本版图 V16 永续经营版"
+config/name="商域之城 V16 公开无音乐版"
 run/main_scene="res://scenes/MainMenu.tscn"
 config/features=PackedStringArray("4.7", "Forward Plus")
 
 [autoload]
+
+PublicBuildCheck="*res://scripts/PublicBuildCheck.gd"
 
 GameConfig="*res://scripts/GameConfig.gd"
 GameState="*res://scripts/GameState.gd"
@@ -51,6 +53,7 @@ text_editor/behavior/indent/size=4
 [gui]
 
 theme/custom_font="res://Themes/V9141BodyFont.tres"
+
 
 [rendering]
 

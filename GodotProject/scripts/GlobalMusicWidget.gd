@@ -86,7 +86,7 @@ func _build() -> void :
 	header.add_child(identity)
 	identity.add_child(_label("CITY RADIO", 12, Color("71d0de"), true))
 	identity.add_child(_label("城市经营电台", 27, Color("fff1c8"), true))
-	identity.add_child(_label("三种风格  随经营节奏循环", 13, Color("a9bec5")))
+	identity.add_child(_label("自选音乐 · 放入 music 文件夹后重启", 13, Color("a9bec5")))
 	var close: = Button.new()
 	close.text = "收起"
 	close.custom_minimum_size = Vector2(76, 42)
@@ -234,12 +234,12 @@ func _refresh() -> void :
 	if mascot == null:
 		return
 	_refresh_visibility()
-	mascot.set_active(GameSettings.music_enabled and not GameSettings.muted)
+	mascot.set_active(GameSettings.music_enabled and not GameSettings.muted and not AudioManager.BGM_TRACKS.is_empty())
 	toggle.set_pressed_no_signal(GameSettings.music_enabled)
 	volume.set_value_no_signal(GameSettings.bgm_volume)
 	var profile: Dictionary = AudioManager.playlist_profile()
 	var current_id: = str(profile.get("current_id", ""))
-	var current_title: = "准备播放"
+	var current_title: = "未添加背景音乐" if AudioManager.BGM_TRACKS.is_empty() else "准备播放"
 	for track: Dictionary in profile.get("tracks", []):
 		var selected: = str(track.id) == current_id
 		if selected:

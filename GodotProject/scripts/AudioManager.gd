@@ -3,11 +3,8 @@ extends Node
 signal music_track_changed(track_id: String, title: String)
 
 const AUDIO_ROOT: = "res://assets/audio/generated/"
-const BGM_TRACKS: = [
-	{"id": "swim", "title": "海湾漫游", "subtitle": "轻松城市漫步", "file": "swim.mp3", "symbol": "≈"}, 
-	{"id": "dynamite", "title": "金色律动", "subtitle": "活力资本时刻", "file": "dynamite_instrumental.mp3", "symbol": "✦"}, 
-	{"id": "permission_to_dance", "title": "自由舞步", "subtitle": "明快经营节拍", "file": "permission_to_dance_instrumental.mp3", "symbol": "♪"}, 
-]
+# The public edition contains no bundled background music.
+var BGM_TRACKS: Array[Dictionary] = []
 const SFX_FILE_NAMES: = {
 	"card_play": "card_felt_commit_v11.wav", 
 	"talent_summon": "talent_contract_signature_v11.wav", 
@@ -88,10 +85,26 @@ func _load_streams() -> void :
 		var key: = "sfx_%s" % kind
 		var path: = AUDIO_ROOT + str(SFX_FILE_NAMES.get(kind, key + ".wav"))
 		if ResourceLoader.exists(path): streams[key] = load(path)
-	for track: Dictionary in BGM_TRACKS:
-		var music_path: = AUDIO_ROOT + str(track.file)
-		if ResourceLoader.exists(music_path):
-			streams[str(track.id)] = load(music_path)
+	var folder: String = ProjectSettings.globalize_path("res://music") if OS.has_feature("editor") else OS.get_executable_path().get_base_dir().path_join("music")
+	_load_custom_music(folder)
+
+
+func _load_custom_music(folder: String) -> void:
+	if not DirAccess.dir_exists_absolute(folder): return
+	var files: PackedStringArray = DirAccess.get_files_at(folder)
+	files.sort()
+	for file: String in files:
+		var path: String = folder.path_join(file)
+		var stream: AudioStream = null
+		match file.get_extension().to_lower():
+			"mp3": stream = AudioStreamMP3.load_from_file(path)
+			"ogg": stream = AudioStreamOggVorbis.load_from_file(path)
+			"wav": stream = AudioStreamWAV.load_from_file(path)
+		if stream == null: continue
+		var key: String = "custom_" + file.sha256_text()
+		if streams.has(key): continue
+		streams[key] = stream
+		BGM_TRACKS.append({"id": key, "title": file.get_basename(), "subtitle": "自行添加的音乐", "file": file, "symbol": "♪"})
 
 
 func play_bgm(kind: String = "") -> void :
@@ -105,6 +118,7 @@ func play_bgm(kind: String = "") -> void :
 
 
 func play_random_bgm() -> void :
+	if BGM_TRACKS.is_empty(): return
 	var rng: = RandomNumberGenerator.new()
 	rng.randomize()
 	_switch_bgm_index(rng.randi_range(0, BGM_TRACKS.size() - 1), true)
@@ -123,6 +137,7 @@ func sync_city_time(_normalized_time: float) -> void :
 
 
 func _switch_bgm_index(index: int, force_restart: = false) -> void :
+	if BGM_TRACKS.is_empty(): return
 	current_kind = "global"
 	index = posmod(index, BGM_TRACKS.size())
 	var track: Dictionary = BGM_TRACKS[index]
@@ -245,6 +260,7 @@ func _apply_volume() -> void :
 
 
 func _on_music_finished(index: int) -> void :
+	if BGM_TRACKS.is_empty(): return
 	if index != active_music_index or muted or not music_enabled or current_bgm.is_empty(): return
 	_switch_bgm_index((current_track_index + 1) % BGM_TRACKS.size(), true)
 
