@@ -1,0 +1,7 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/models/buildings/office_tower_01.tscn" id="1"]
+
+[node name="FallbackTech" type="Node3D" unique_id=530184935]
+
+[node name="E1LiteModel" parent="." unique_id=1579056783 instance=ExtResource("1")]

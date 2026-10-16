@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://eru4pu30y3rg"]
+
+[ext_resource type="Script" uid="uid://boq748k7uh34h" path="res://scripts/CommercialCityMap.gd" id="1"]
+
+[node name="CommercialCityMap" type="Node3D" unique_id=35359334]
+script = ExtResource("1")

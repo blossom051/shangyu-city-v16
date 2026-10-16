@@ -1,0 +1,76 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://ibcylhud36pq" path="res://scripts/BankPanel.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://kynbfngf0e78" path="res://assets/ui/bank/bank_hall_v9141.png" id="2"]
+
+[node name="BankPanel" type="Control" unique_id=1846768592]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="BankHall" type="TextureRect" parent="." unique_id=180485124]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("2")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Shade" type="ColorRect" parent="." unique_id=452120322]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.006, 0.025, 0.045, 0.74)
+
+[node name="Safe" type="MarginContainer" parent="." unique_id=1205106612]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 28.0
+offset_top = 22.0
+offset_right = -28.0
+offset_bottom = -22.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Columns" type="HBoxContainer" parent="Safe" unique_id=1580980389]
+layout_mode = 2
+theme_override_constants/separation = 18
+
+[node name="MainShell" type="PanelContainer" parent="Safe/Columns" unique_id=705023819]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Scroll" type="ScrollContainer" parent="Safe/Columns/MainShell" unique_id=295802702]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="Layout" type="VBoxContainer" parent="Safe/Columns/MainShell/Scroll" unique_id=1712911473]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 16
+
+[node name="AdvisorShell" type="PanelContainer" parent="Safe/Columns" unique_id=1006902585]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Advisor" type="VBoxContainer" parent="Safe/Columns/AdvisorShell" unique_id=595094988]
+layout_mode = 2
+theme_override_constants/separation = 14

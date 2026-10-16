@@ -1,0 +1,10 @@
+{
+  "talent_quality_rates":{"blue":0.60,"platinum":0.25,"gold":0.12,"red":0.03},
+  "talent_draw_cost":{"single":60,"five":270},
+  "red_points_draw":{"blue":1,"platinum":2,"gold":5,"red":0},
+  "red_points_convert":{"blue":2,"platinum":5,"gold":12,"red":0},
+  "land_limits":{"8":5,"12":7,"16":7,"20":9},
+  "environment":{"fit_income":0.12,"mismatch_income":-0.18,"severe_risk":8},
+  "loan":{"limit":800,"interest":0.05,"mortgage_interest":0.04,"mortgage_ratio":0.80,"overdue_limit":3},
+  "startup_rates":{"failure":0.45,"small":0.35,"medium":0.15,"hit":0.05}
+}

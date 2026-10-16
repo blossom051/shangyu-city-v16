@@ -1,0 +1,273 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://dkfrbib4u0kcm" path="res://scripts/CityMapController.gd" id="1"]
+
+[node name="CityMap" type="Node3D" unique_id=761263258]
+script = ExtResource("1")
+
+[node name="CameraRig" type="Node3D" parent="." unique_id=391590352]
+
+[node name="Camera3D" type="Camera3D" parent="CameraRig" unique_id=491930705]
+transform = Transform3D(1, 0, 0, 0, 0.57357645, 0.81915206, 0, -0.81915206, 0.57357645, 0, 45.08, 31.28)
+current = true
+fov = 44.0
+
+[node name="CityDecor" type="Node3D" parent="." unique_id=1988545137]
+
+[node name="FunctionBuildings" type="Node3D" parent="." unique_id=133542921]
+
+[node name="LandRoot" type="Node3D" parent="." unique_id=1622069473]
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=788311010]
+layer = 10
+
+[node name="HUDBack" type="PanelContainer" parent="UI" unique_id=668374271]
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 14.0
+offset_top = 12.0
+offset_right = -14.0
+offset_bottom = 88.0
+
+[node name="HUD" type="HBoxContainer" parent="UI" unique_id=1830731806]
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 30.0
+offset_top = 20.0
+offset_right = -30.0
+offset_bottom = 80.0
+theme_override_constants/separation = 22
+
+[node name="Cash" type="Label" parent="UI/HUD" unique_id=901585280]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.08, 0.22, 0.24, 1)
+theme_override_font_sizes/font_size = 24
+
+[node name="Assets" type="Label" parent="UI/HUD" unique_id=1696548088]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.08, 0.22, 0.24, 1)
+theme_override_font_sizes/font_size = 24
+
+[node name="Debt" type="Label" parent="UI/HUD" unique_id=1223253661]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.08, 0.22, 0.24, 1)
+theme_override_font_sizes/font_size = 24
+
+[node name="Risk" type="Button" parent="UI/HUD" unique_id=1980185620]
+layout_mode = 2
+tooltip_text = "点击查看风险来源与实际财务影响"
+theme_override_colors/font_color = Color(0.08, 0.22, 0.24, 1)
+theme_override_font_sizes/font_size = 24
+flat = true
+
+[node name="Rank" type="Label" parent="UI/HUD" unique_id=375535046]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.08, 0.22, 0.24, 1)
+theme_override_font_sizes/font_size = 24
+
+[node name="TaskPanel" type="PanelContainer" parent="UI" unique_id=1533912917]
+offset_left = 18.0
+offset_top = 92.0
+offset_right = 330.0
+offset_bottom = 246.0
+
+[node name="Tasks" type="VBoxContainer" parent="UI/TaskPanel" unique_id=470291417]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Title" type="Label" parent="UI/TaskPanel/Tasks" unique_id=691675789]
+layout_mode = 2
+theme_override_font_sizes/font_size = 21
+text = "本轮目标"
+
+[node name="Line1" type="Label" parent="UI/TaskPanel/Tasks" unique_id=991709922]
+layout_mode = 2
+theme_override_font_sizes/font_size = 17
+
+[node name="Line2" type="Label" parent="UI/TaskPanel/Tasks" unique_id=1481303525]
+layout_mode = 2
+theme_override_font_sizes/font_size = 17
+
+[node name="Line3" type="Label" parent="UI/TaskPanel/Tasks" unique_id=1656013892]
+layout_mode = 2
+theme_override_font_sizes/font_size = 17
+
+[node name="Hint" type="Label" parent="UI/TaskPanel/Tasks" unique_id=1384662229]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.32, 0.45, 0.42, 1)
+theme_override_font_sizes/font_size = 16
+text = "推荐：选择一块空地购买"
+
+[node name="Ranking" type="Panel" parent="UI" unique_id=1520270210]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -330.0
+offset_top = 92.0
+offset_right = -18.0
+offset_bottom = 300.0
+
+[node name="Text" type="Label" parent="UI/Ranking" unique_id=306768164]
+layout_mode = 0
+theme_override_font_sizes/font_size = 17
+text = "排行榜"
+
+[node name="Side" type="PanelContainer" parent="UI" unique_id=1728830268]
+visible = false
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -370.0
+offset_top = 318.0
+offset_right = -18.0
+offset_bottom = -158.0
+
+[node name="Scroll" type="ScrollContainer" parent="UI/Side" unique_id=1486452326]
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="Content" type="VBoxContainer" parent="UI/Side/Scroll" unique_id=1202595950]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 8
+
+[node name="Title" type="Label" parent="UI/Side/Scroll/Content" unique_id=1697243065]
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+
+[node name="Category" type="Label" parent="UI/Side/Scroll/Content" unique_id=766427812]
+custom_minimum_size = Vector2(0, 54)
+layout_mode = 2
+theme_override_font_sizes/font_size = 17
+text = "城市商业地块"
+vertical_alignment = 1
+
+[node name="Locate" type="Button" parent="UI/Side/Scroll/Content" unique_id=1911814967]
+custom_minimum_size = Vector2(0, 46)
+layout_mode = 2
+text = "在地图上定位街区"
+
+[node name="Price" type="Label" parent="UI/Side/Scroll/Content" unique_id=2121368422]
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+
+[node name="Return" type="Label" parent="UI/Side/Scroll/Content" unique_id=1310534250]
+layout_mode = 2
+theme_override_font_sizes/font_size = 19
+
+[node name="RiskLevel" type="Label" parent="UI/Side/Scroll/Content" unique_id=1813569880]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+
+[node name="Environment" type="Label" parent="UI/Side/Scroll/Content" unique_id=1919045978]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.24, 0.42, 0.4, 1)
+theme_override_font_sizes/font_size = 17
+autowrap_mode = 2
+
+[node name="Business" type="Label" parent="UI/Side/Scroll/Content" unique_id=1152730887]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+
+[node name="Buy" type="Button" parent="UI/Side/Scroll/Content" unique_id=475392205]
+custom_minimum_size = Vector2(0, 54)
+layout_mode = 2
+text = "购买土地"
+
+[node name="Build" type="Button" parent="UI/Side/Scroll/Content" unique_id=1996129619]
+custom_minimum_size = Vector2(0, 54)
+layout_mode = 2
+text = "建设企业"
+
+[node name="Rename" type="Button" parent="UI/Side/Scroll/Content" unique_id=212364804]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+text = "编辑地名"
+
+[node name="Employee1" type="Button" parent="UI/Side/Scroll/Content" unique_id=9812173]
+custom_minimum_size = Vector2(0, 48)
+layout_mode = 2
+text = "员工位 1"
+
+[node name="Employee2" type="Button" parent="UI/Side/Scroll/Content" unique_id=5498100]
+custom_minimum_size = Vector2(0, 48)
+layout_mode = 2
+text = "员工位 2"
+
+[node name="Bottom" type="HBoxContainer" parent="UI" unique_id=321718842]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 18.0
+offset_top = -96.0
+offset_right = -18.0
+offset_bottom = -18.0
+theme_override_constants/separation = 14
+
+[node name="Limits" type="Label" parent="UI/Bottom" unique_id=2051472899]
+custom_minimum_size = Vector2(360, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+vertical_alignment = 1
+
+[node name="Actions" type="HBoxContainer" parent="UI/Bottom" unique_id=223890997]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 12
+alignment = 2
+
+[node name="Talent" type="Button" parent="UI/Bottom/Actions" unique_id=2036814056]
+custom_minimum_size = Vector2(128, 58)
+layout_mode = 2
+text = "人才市场"
+
+[node name="News" type="Button" parent="UI/Bottom/Actions" unique_id=880446817]
+custom_minimum_size = Vector2(100, 58)
+layout_mode = 2
+text = "新闻"
+
+[node name="Startup" type="Button" parent="UI/Bottom/Actions" unique_id=1470585086]
+custom_minimum_size = Vector2(100, 58)
+layout_mode = 2
+text = "创投"
+
+[node name="Auction" type="Button" parent="UI/Bottom/Actions" unique_id=1918884798]
+custom_minimum_size = Vector2(100, 58)
+layout_mode = 2
+text = "拍卖"
+
+[node name="Cards" type="Button" parent="UI/Bottom/Actions" unique_id=1742833093]
+custom_minimum_size = Vector2(112, 58)
+layout_mode = 2
+text = "手牌"
+
+[node name="Stocks" type="Button" parent="UI/Bottom/Actions" unique_id=1888716965]
+custom_minimum_size = Vector2(112, 58)
+layout_mode = 2
+text = "证券"
+
+[node name="Bank" type="Button" parent="UI/Bottom/Actions" unique_id=1549668714]
+custom_minimum_size = Vector2(112, 58)
+layout_mode = 2
+text = "银行"
+
+[node name="EndTurn" type="Button" parent="UI/Bottom/Actions" unique_id=2002168941]
+custom_minimum_size = Vector2(150, 58)
+layout_mode = 2
+text = "结束回合"
+
+[node name="Toast" type="Label" parent="UI" unique_id=522664951]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -230.0
+offset_top = -152.0
+offset_right = 230.0
+offset_bottom = -112.0
+theme_override_colors/font_color = Color(0.12, 0.3, 0.31, 1)
+theme_override_font_sizes/font_size = 20
+horizontal_alignment = 1

@@ -1,0 +1,7 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/models/buildings/tea_shop_01.tscn" id="1"]
+
+[node name="FallbackRestaurant" type="Node3D" unique_id=971491300]
+
+[node name="E1LiteModel" parent="." unique_id=1071161444 instance=ExtResource("1")]

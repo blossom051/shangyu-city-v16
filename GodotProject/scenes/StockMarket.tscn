@@ -1,0 +1,209 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://c24jb1x3tyml" path="res://scripts/StockMarket.gd" id="1"]
+[ext_resource type="Script" uid="uid://d2s76r1vik045" path="res://scripts/StockChart.gd" id="2"]
+
+[node name="StockMarket" type="Control" unique_id=968505247]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="BG" type="ColorRect" parent="." unique_id=304423323]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.025, 0.065, 0.095, 1)
+
+[node name="Layout" type="VBoxContainer" parent="." unique_id=368490409]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 42.0
+offset_top = 28.0
+offset_right = -42.0
+offset_bottom = -30.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 18
+
+[node name="Header" type="HBoxContainer" parent="Layout" unique_id=1199869291]
+layout_mode = 2
+
+[node name="Title" type="Label" parent="Layout/Header" unique_id=1977734090]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 34
+text = "城市交易大厅"
+
+[node name="Cash" type="Label" parent="Layout/Header" unique_id=622129252]
+layout_mode = 2
+theme_override_font_sizes/font_size = 19
+
+[node name="Back" type="Button" parent="Layout/Header" unique_id=344791308]
+custom_minimum_size = Vector2(150, 50)
+layout_mode = 2
+text = "返回城市"
+
+[node name="Main" type="HBoxContainer" parent="Layout" unique_id=310652724]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 18
+
+[node name="Watchlist" type="VBoxContainer" parent="Layout/Main" unique_id=1899858145]
+custom_minimum_size = Vector2(310, 0)
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Label" type="Label" parent="Layout/Main/Watchlist" unique_id=114439236]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.35, 0.83, 0.88, 1)
+theme_override_font_sizes/font_size = 16
+text = "实时行情"
+
+[node name="Portfolio" type="RichTextLabel" parent="Layout/Main/Watchlist" unique_id=1261841427]
+custom_minimum_size = Vector2(0, 116)
+layout_mode = 2
+bbcode_enabled = true
+text = "我的持仓"
+scroll_active = false
+
+[node name="Stocks" type="VBoxContainer" parent="Layout/Main/Watchlist" unique_id=1550995365]
+layout_mode = 2
+theme_override_constants/separation = 7
+
+[node name="PositionsTitle" type="Label" parent="Layout/Main/Watchlist" unique_id=1704710893]
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "我的持仓明细"
+
+[node name="Positions" type="VBoxContainer" parent="Layout/Main/Watchlist" unique_id=526479376]
+custom_minimum_size = Vector2(0, 150)
+layout_mode = 2
+theme_override_constants/separation = 7
+
+[node name="Terminal" type="VBoxContainer" parent="Layout/Main" unique_id=2006630658]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 10
+
+[node name="Top" type="HBoxContainer" parent="Layout/Main/Terminal" unique_id=1648173486]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="Layout/Main/Terminal/Top" unique_id=73559572]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 24
+
+[node name="Price" type="Label" parent="Layout/Main/Terminal/Top" unique_id=1536850238]
+layout_mode = 2
+theme_override_font_sizes/font_size = 36
+
+[node name="Delta" type="Label" parent="Layout/Main/Terminal/Top" unique_id=807136360]
+custom_minimum_size = Vector2(130, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Chart" type="Control" parent="Layout/Main/Terminal" unique_id=1106031809]
+custom_minimum_size = Vector2(0, 390)
+layout_mode = 2
+size_flags_vertical = 3
+script = ExtResource("2")
+
+[node name="Signal" type="Label" parent="Layout/Main/Terminal" unique_id=1085677497]
+custom_minimum_size = Vector2(0, 48)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.98, 0.8, 0.35, 1)
+theme_override_font_sizes/font_size = 18
+vertical_alignment = 1
+
+[node name="TradeDesk" type="VBoxContainer" parent="Layout/Main" unique_id=943348019]
+custom_minimum_size = Vector2(330, 0)
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="DeskTitle" type="Label" parent="Layout/Main/TradeDesk" unique_id=1976774424]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.88, 0.62, 1)
+theme_override_font_sizes/font_size = 24
+text = "交易席"
+
+[node name="Holding" type="Label" parent="Layout/Main/TradeDesk" unique_id=220534422]
+custom_minimum_size = Vector2(0, 52)
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+
+[node name="Cost" type="Label" parent="Layout/Main/TradeDesk" unique_id=283040586]
+custom_minimum_size = Vector2(0, 52)
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+
+[node name="MarketValue" type="Label" parent="Layout/Main/TradeDesk" unique_id=1469362344]
+custom_minimum_size = Vector2(0, 52)
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+
+[node name="Divider" type="HSeparator" parent="Layout/Main/TradeDesk" unique_id=765448317]
+layout_mode = 2
+
+[node name="SharesLabel" type="Label" parent="Layout/Main/TradeDesk" unique_id=780382856]
+layout_mode = 2
+text = "交易股数  拖动选择"
+
+[node name="Shares" type="HSlider" parent="Layout/Main/TradeDesk" unique_id=1215505403]
+custom_minimum_size = Vector2(0, 54)
+layout_mode = 2
+min_value = 100.0
+max_value = 1000.0
+step = 100.0
+value = 100.0
+
+[node name="QuantityScale" type="HBoxContainer" parent="Layout/Main/TradeDesk" unique_id=1754545033]
+layout_mode = 2
+
+[node name="Min" type="Label" parent="Layout/Main/TradeDesk/QuantityScale" unique_id=699518836]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "100"
+
+[node name="Mid" type="Label" parent="Layout/Main/TradeDesk/QuantityScale" unique_id=2037517053]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "500"
+horizontal_alignment = 1
+
+[node name="Max" type="Label" parent="Layout/Main/TradeDesk/QuantityScale" unique_id=1157329803]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "1000 股"
+horizontal_alignment = 2
+
+[node name="Preview" type="Label" parent="Layout/Main/TradeDesk" unique_id=732245309]
+custom_minimum_size = Vector2(0, 54)
+layout_mode = 2
+theme_override_font_sizes/font_size = 17
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Buy" type="Button" parent="Layout/Main/TradeDesk" unique_id=972289107]
+custom_minimum_size = Vector2(0, 58)
+layout_mode = 2
+
+[node name="Sell" type="Button" parent="Layout/Main/TradeDesk" unique_id=1933166865]
+custom_minimum_size = Vector2(0, 58)
+layout_mode = 2
+
+[node name="Message" type="Label" parent="Layout/Main/TradeDesk" unique_id=1138648410]
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+horizontal_alignment = 1
+autowrap_mode = 2

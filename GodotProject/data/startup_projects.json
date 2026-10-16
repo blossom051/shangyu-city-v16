@@ -1,0 +1,14 @@
+[
+  {"id":"sp01","name":"邻里补给站","founder":"程澈","founder_role":"新零售运营创始人","founder_tagline":"用数据重做社区补给网络","summary":"为高密度社区提供全天即时补给","cost":120,"risk":"中","delay":1,"sector":"consumer","base_success":0.62,"financing_multiplier":1.70},
+  {"id":"sp02","name":"城市数字孪生","founder":"顾言","founder_role":"城市计算首席架构师","founder_tagline":"让每次城市决策先在模型中发生","summary":"模拟商圈客流与城市规划","cost":240,"risk":"高","delay":2,"sector":"technology","base_success":0.42,"financing_multiplier":2.40},
+  {"id":"sp03","name":"冷链共享仓","founder":"周野","founder_role":"冷链物流创业者","founder_tagline":"把小商户的冷链成本打下来","summary":"降低城市商户冷链履约成本","cost":180,"risk":"中","delay":2,"sector":"logistics","base_success":0.52,"financing_multiplier":2.00},
+  {"id":"sp04","name":"银龄健康管家","founder":"林晴","founder_role":"社区医疗创始人","founder_tagline":"让慢病管理走出医院进入日常","summary":"提供社区慢病追踪与健康服务","cost":150,"risk":"中低","delay":1,"sector":"medical","base_success":0.64,"financing_multiplier":1.70},
+  {"id":"sp05","name":"虚拟演出工场","founder":"苏冉","founder_role":"互动娱乐制作人","founder_tagline":"把演出变成可参与的数字空间","summary":"制作互动型线上演出与数字内容","cost":210,"risk":"高","delay":2,"sector":"entertainment","base_success":0.45,"financing_multiplier":2.30},
+  {"id":"sp06","name":"工业储能云","founder":"贺川","founder_role":"能源算法工程师","founder_tagline":"让园区每度电都拥有最优去处","summary":"调度园区分布式储能系统","cost":280,"risk":"高","delay":2,"sector":"energy","base_success":0.40,"financing_multiplier":2.50},
+  {"id":"sp07","name":"可信账本云","founder":"许真","founder_role":"金融科技创始人","founder_tagline":"让每笔产业融资都有可追溯凭证","summary":"为中小企业提供应收账款核验与融资撮合","cost":260,"risk":"高","delay":2,"sector":"finance","base_success":0.44,"financing_multiplier":2.35},
+  {"id":"sp08","name":"街区学习舱","founder":"邵宁","founder_role":"教育产品设计师","founder_tagline":"把技能学习带到每个通勤节点","summary":"在社区与交通枢纽部署模块化职业学习空间","cost":140,"risk":"中低","delay":1,"sector":"education","base_success":0.66,"financing_multiplier":1.65},
+  {"id":"sp09","name":"零碳接驳网","founder":"陆行","founder_role":"绿色出行创业者","founder_tagline":"补上公共交通最后三公里","summary":"以新能源微巴连接商圈、园区与社区","cost":230,"risk":"中","delay":2,"sector":"logistics","base_success":0.54,"financing_multiplier":2.05},
+  {"id":"sp10","name":"城市版权库","founder":"闻夏","founder_role":"数字内容制作人","founder_tagline":"让城市文化资产获得长期收益","summary":"整合地方文化内容并进行数字授权运营","cost":170,"risk":"中","delay":1,"sector":"entertainment","base_success":0.58,"financing_multiplier":1.9},
+  {"id":"sp11","name":"智护社区网","founder":"季禾","founder_role":"智慧养老运营者","founder_tagline":"让社区照护更快响应每次需要","summary":"连接护理机构、家庭与社区应急服务","cost":190,"risk":"中","delay":2,"sector":"medical","base_success":0.57,"financing_multiplier":1.95},
+  {"id":"sp12","name":"企业安全哨","founder":"白砚","founder_role":"网络安全工程师","founder_tagline":"让小企业也拥有实时安全团队","summary":"提供轻量化威胁检测和合规响应服务","cost":220,"risk":"中高","delay":2,"sector":"technology","base_success":0.49,"financing_multiplier":2.2}
+]

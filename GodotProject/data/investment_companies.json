@@ -1,0 +1,239 @@
+﻿[
+    {
+        "id":  "hengyue",
+        "name":  "恒岳资本",
+        "capital":  980,
+        "type":  "稳健型",
+        "color":  "#2F6F8F",
+        "strength":  "固定成本 -8%，风险损失 -8%",
+        "weakness":  "爆发能力较弱",
+        "ability_text":  "每 4 回合获得 1 层稳健护盾，保留至抵消下一次负面事件",
+        "playstyle":  "适合稳扎稳打，先铺民生和办公资产。",
+        "abilities":  {
+                          "fixed_cost_multiplier":  0.92,
+                          "risk_loss_multiplier":  0.92,
+                          "event_guard_every":  4
+                      },
+        "signature_tags":  [
+                               "defense",
+                               "risk",
+                               "stability"
+                           ],
+        "signature_cards":  [
+                                "g01",
+                                "g03",
+                                "b01"
+                            ]
+    },
+    {
+        "id":  "xingchao",
+        "name":  "星潮投资",
+        "capital":  980,
+        "type":  "流量型",
+        "color":  "#E65A74",
+        "strength":  "餐饮、娱乐、直播、电商收益 +6%",
+        "weakness":  "建设成本 +13%，舆论攻击惩罚 +18%",
+        "ability_text":  "热点转化：流量行业每轮自动获得 6% 收益加成",
+        "playstyle":  "优先布局高热度商圈，用更快回款覆盖建设溢价，并预留公关风险资金。",
+        "abilities":  {
+                          "income_tags":  [
+                                              "food",
+                                              "entertainment",
+                                              "live",
+                                              "commerce"
+                                          ],
+                          "income_multiplier":  1.06,
+                          "build_cost_multiplier":  1.13,
+                          "public_opinion_penalty_multiplier":  1.18
+                      },
+        "signature_tags":  [
+                               "marketing",
+                               "public_opinion",
+                               "traffic"
+                           ],
+        "signature_cards":  [
+                                "o01",
+                                "c02",
+                                "r01"
+                            ]
+    },
+    {
+        "id":  "qiming",
+        "name":  "启明创投",
+        "capital":  1000,
+        "type":  "科技型",
+        "color":  "#4378C4",
+        "strength":  "第3回合起科技教育研发收益 +30%",
+        "weakness":  "非科技赛道缺少加成",
+        "ability_text":  "创投研判：首次创投成功率额外 +8 个百分点（最高 90%）",
+        "playstyle":  "适合中后期爆发，先控风险。",
+        "abilities":  {
+                          "income_tags":  [
+                                              "technology",
+                                              "education",
+                                              "research"
+                                          ],
+                          "income_multiplier":  1.30,
+                          "income_start_round":  3,
+                          "startup_hint":  true,
+                          "first_startup_success_bonus":  0.08
+                      },
+        "signature_tags":  [
+                               "startup",
+                               "technology",
+                               "draw"
+                           ],
+        "signature_cards":  [
+                                "b04",
+                                "x04",
+                                "z03"
+                            ]
+    },
+    {
+        "id":  "jinding",
+        "name":  "金鼎财团",
+        "capital":  980,
+        "type":  "金融型",
+        "color":  "#D29A2E",
+        "strength":  "贷款额度 400 万，首份贷款利率降低25%",
+        "weakness":  "债务与金融监管惩罚 +20%",
+        "ability_text":  "融资更灵活，但不再额外放大金融企业收益",
+        "playstyle":  "适合适度运用杠杆，但要盯住负债。",
+        "abilities":  {
+                          "loan_limit":  400,
+                          "first_loan_interest_multiplier":  0.75,
+                          "debt_penalty_multiplier":  1.20
+                      },
+        "signature_tags":  [
+                               "finance",
+                               "bank",
+                               "debt"
+                           ],
+        "signature_cards":  [
+                                "n01",
+                                "x01",
+                                "z01"
+                            ]
+    },
+    {
+        "id":  "wangang",
+        "name":  "万港实业",
+        "capital":  860,
+        "type":  "地产型",
+        "color":  "#477C59",
+        "strength":  "地产行业收益 +4%，相邻资产收益 +2%",
+        "weakness":  "开局资本比标准财团少 140 万",
+        "ability_text":  "片区协同：同街区相邻己方资产自动形成小幅联营增益",
+        "playstyle":  "集中拿下同一商圈的相邻地块，以片区协同弥补开局资金差距。",
+        "abilities":  {
+                          "income_tags":  [
+                                              "mall",
+                                              "office",
+                                              "warehouse",
+                                              "logistics"
+                                          ],
+                          "income_multiplier":  1.04,
+                          "build_cost_multiplier":  1.00,
+                          "adjacency_income_multiplier":  1.02
+                      },
+        "signature_tags":  [
+                               "land",
+                               "district",
+                               "construction"
+                           ],
+        "signature_cards":  [
+                                "p01",
+                                "x05",
+                                "z04"
+                            ]
+    },
+    {
+        "id":  "qinghe",
+        "name":  "青禾民生",
+        "capital":  1000,
+        "type":  "民生型",
+        "color":  "#5A9B76",
+        "strength":  "便利、社区、教育、医疗收益 +18%",
+        "weakness":  "股票正收益 -5%",
+        "ability_text":  "民生资产提供稳定现金流",
+        "playstyle":  "适合低风险现金流。",
+        "abilities":  {
+                          "income_tags":  [
+                                              "convenience",
+                                              "community",
+                                              "education",
+                                              "medical"
+                                          ],
+                          "income_multiplier":  1.18,
+                          "stock_profit_multiplier":  0.95
+                      },
+        "signature_tags":  [
+                               "operation",
+                               "stability",
+                               "talent"
+                           ],
+        "signature_cards":  [
+                                "o03",
+                                "g03",
+                                "b02"
+                            ]
+    },
+    {
+        "id":  "chiyan",
+        "name":  "赤焰资本",
+        "capital":  1000,
+        "type":  "激进型",
+        "color":  "#C64B3E",
+        "strength":  "固定成本 -8%，每局一次正常中标返利",
+        "weakness":  "回合末现金低于100万时风险 +3",
+        "ability_text":  "强势成交：完整支付正常中标价后返还 8%，最多 25 万，每局一次",
+        "playstyle":  "适合压迫对手，但仍需判断其他财团的真实报价。",
+        "abilities":  {
+                          "fixed_cost_multiplier":  0.92,
+                          "auction_rebate_rate":  0.08,
+                          "auction_rebate_cap":  25,
+                          "low_cash_threshold":  100,
+                          "low_cash_risk":  3
+                      },
+        "signature_tags":  [
+                               "attack",
+                               "auction",
+                               "pressure"
+                           ],
+        "signature_cards":  [
+                                "a01",
+                                "a04",
+                                "z02"
+                            ]
+    },
+    {
+        "id":  "yunshan",
+        "name":  "云杉基金",
+        "capital":  1000,
+        "type":  "卡牌策略型",
+        "color":  "#6D63A8",
+        "strength":  "开局获得 1 张红色王牌；每两次普通抽牌固定追加 1 张",
+        "weakness":  "没有土地、经营或融资数值加成",
+        "ability_text":  "策略储备：以更稳定的卡牌供给干预市场与对手",
+        "playstyle":  "围绕卡牌时机规划行动，保留手牌应对城市事件与竞争。",
+        "abilities":  {
+                          "opening_red_ids":  [
+                                                  "o01",
+                                                  "f02",
+                                                  "r02",
+                                                  "r04"
+                                              ],
+                          "extra_draw_every":  2
+                      },
+        "signature_tags":  [
+                               "card",
+                               "counter",
+                               "draw"
+                           ],
+        "signature_cards":  [
+                                "d01",
+                                "d02",
+                                "d03"
+                            ]
+    }
+]

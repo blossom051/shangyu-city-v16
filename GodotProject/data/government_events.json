@@ -1,0 +1,6 @@
+[
+  {"id":"gov01","name":"交通规划","description":"新地铁站提升周边土地热度","effect":"land_value","value":0.18,"duration":3},
+  {"id":"gov02","name":"环境整治","description":"高风险文娱企业暂停经营","effect":"suspend_tag","tag":"entertainment","duration":1},
+  {"id":"gov03","name":"老城征收","description":"征收地块并按估值补偿","effect":"acquisition","min":1.2,"max":1.6,"duration":0},
+  {"id":"gov04","name":"监管加强","description":"金融企业本轮风险上升","effect":"risk_tag","tag":"finance","value":15,"duration":1}
+]

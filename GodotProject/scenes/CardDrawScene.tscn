@@ -1,0 +1,72 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://bofcgcasj3vre" path="res://scripts/CardDrawScene.gd" id="1"]
+
+[node name="CardDrawScene" type="Control" unique_id=1747729598]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Background" type="ColorRect" parent="." unique_id=856904492]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.02, 0.06, 0.08, 0.66)
+
+[node name="Layout" type="VBoxContainer" parent="." unique_id=1993677416]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 46.0
+offset_top = 36.0
+offset_right = -46.0
+offset_bottom = -36.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 22
+
+[node name="Header" type="HBoxContainer" parent="Layout" unique_id=864892483]
+layout_mode = 2
+
+[node name="Player" type="Label" parent="Layout/Header" unique_id=1748918633]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.96, 0.92, 0.76, 1)
+theme_override_font_sizes/font_size = 36
+
+[node name="Count" type="Label" parent="Layout/Header" unique_id=2058180633]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.86, 0.95, 0.93, 1)
+theme_override_font_sizes/font_size = 24
+
+[node name="Prompt" type="Label" parent="Layout" unique_id=199263056]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.81, 0.91, 0.9, 1)
+theme_override_font_sizes/font_size = 20
+text = "从 8 张卡背中亲自选择 3 张。选中后立即翻开。"
+
+[node name="Cards" type="GridContainer" parent="Layout" unique_id=2073742827]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+theme_override_constants/h_separation = 20
+theme_override_constants/v_separation = 20
+columns = 4
+
+[node name="Footer" type="HBoxContainer" parent="Layout" unique_id=254786175]
+layout_mode = 2
+alignment = 2
+
+[node name="Confirm" type="Button" parent="Layout/Footer" unique_id=1525722165]
+custom_minimum_size = Vector2(260, 62)
+layout_mode = 2
+disabled = true
+text = "确认并进入城市"

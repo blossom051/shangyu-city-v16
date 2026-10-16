@@ -1,0 +1,61 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="商域之城：资本版图 V16 永续经营版"
+run/main_scene="res://scenes/MainMenu.tscn"
+config/features=PackedStringArray("4.7", "Forward Plus")
+
+[autoload]
+
+GameConfig="*res://scripts/GameConfig.gd"
+GameState="*res://scripts/GameState.gd"
+SaveSlots="*res://scripts/SaveSlotService.gd"
+GameFlow="*res://scripts/GameFlow.gd"
+AudioManager="*res://scripts/AudioManager.gd"
+GameSettings="*res://scripts/GameSettings.gd"
+GlobalMusicWidget="*res://scripts/GlobalMusicWidget.gd"
+GameTypography="*res://scripts/GameTypography.gd"
+DisplayEffects="*res://scripts/DisplayEffects.gd"
+TutorialDirector="*res://scripts/TutorialDirector.gd"
+VisualAssets="*res://CoreScripts/Managers/VisualAssetManager.gd"
+TurnDirector="*res://scripts/TurnDirector.gd"
+ModalManager="*res://scripts/ModalManager.gd"
+GlobalFeedbackOverlay="*res://scripts/GlobalFeedbackOverlay.gd"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/size/min_width=1100
+window/size/min_height=650
+gui/timers/tooltip_delay_sec=0.15
+
+[editor_overrides]
+
+text_editor/behavior/indent/type=0
+text_editor/behavior/indent/size=4
+
+[gui]
+
+theme/custom_font="res://Themes/V9141BodyFont.tres"
+
+[rendering]
+
+renderer/rendering_method="forward_plus"
+renderer/rendering_method.mobile="gl_compatibility"
+anti_aliasing/quality/msaa_3d=2
+anti_aliasing/quality/screen_space_aa=1
+environment/defaults/default_clear_color=Color(0.027, 0.067, 0.122, 1)

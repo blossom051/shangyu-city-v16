@@ -1,0 +1,7 @@
+[
+  {"id":"residential_commercial","name":"社区消费线","from":"residential","to":"commercial","base_demand":150,"preferred_tags":["community","commerce","food"]},
+  {"id":"residential_education","name":"学习成长线","from":"residential","to":"education","base_demand":105,"preferred_tags":["community","education"]},
+  {"id":"finance_dining","name":"办公餐饮线","from":"finance","to":"commercial","base_demand":135,"preferred_tags":["office","food","commerce"]},
+  {"id":"commercial_entertainment","name":"夜间消费线","from":"commercial","to":"entertainment","base_demand":165,"preferred_tags":["commerce","entertainment","traffic"]},
+  {"id":"waterfront_consumption","name":"滨水休闲线","from":"waterfront","to":"entertainment","base_demand":145,"preferred_tags":["traffic","commerce","entertainment"]}
+]

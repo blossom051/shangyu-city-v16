@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource path="res://tests/V154EndlessCheatIsolationTest.gd" type="Script" id="1"]
+
+[node name="V154EndlessCheatIsolationTest" type="Node"]
+script = ExtResource("1")

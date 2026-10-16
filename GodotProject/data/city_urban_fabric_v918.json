@@ -1,0 +1,46 @@
+[
+  {"id":"N01","district":"education","tier":"mid","family":"suburban","model":"building-type-q.glb","x":-36.0,"z":-22.0,"width":2.4,"yaw":0},
+  {"id":"N02","district":"education","tier":"mid","family":"suburban","model":"building-type-j.glb","x":-27.5,"z":-22.0,"width":2.1,"yaw":90},
+  {"id":"N03","district":"education","tier":"low","family":"suburban","model":"building-type-f.glb","x":-19.5,"z":-21.7,"width":1.8,"yaw":0},
+  {"id":"N04","district":"education","tier":"mid","family":"suburban","model":"building-type-p.glb","x":-11.0,"z":-22.0,"width":2.2,"yaw":90},
+  {"id":"N05","district":"medical","tier":"high","family":"commercial","model":"building-skyscraper-a.glb","x":-1.5,"z":-22.0,"width":2.4,"yaw":0},
+  {"id":"N06","district":"medical","tier":"mid","family":"suburban","model":"building-type-r.glb","x":9.0,"z":-22.0,"width":2.5,"yaw":0},
+  {"id":"N07","district":"medical","tier":"high","family":"commercial","model":"building-skyscraper-c.glb","x":19.0,"z":-22.0,"width":2.3,"yaw":90},
+  {"id":"N08","district":"medical","tier":"mid","family":"commercial","model":"building-j.glb","x":30.5,"z":-22.0,"width":2.2,"yaw":0},
+
+  {"id":"W01","district":"commercial","tier":"low","family":"commercial","model":"building-a.glb","x":-32.5,"z":1.8,"width":1.6,"yaw":0},
+  {"id":"W02","district":"commercial","tier":"low","family":"commercial","model":"building-b.glb","x":-28.2,"z":1.8,"width":1.6,"yaw":0},
+  {"id":"W03","district":"commercial","tier":"mid","family":"commercial","model":"building-g.glb","x":-23.8,"z":1.7,"width":2.0,"yaw":90},
+
+  {"id":"C01","district":"commercial","tier":"mid","family":"commercial","model":"building-h.glb","x":-17.8,"z":2.3,"width":2.2,"yaw":0},
+  {"id":"C02","district":"commercial","tier":"low","family":"commercial","model":"building-d.glb","x":-12.0,"z":2.3,"width":1.7,"yaw":90},
+  {"id":"C03","district":"commercial","tier":"mid","family":"commercial","model":"building-k.glb","x":-2.8,"z":2.2,"width":2.0,"yaw":0},
+
+  {"id":"F01","district":"finance","tier":"high","family":"commercial","model":"building-skyscraper-b.glb","x":6.4,"z":2.0,"width":2.0,"yaw":0},
+  {"id":"F02","district":"finance","tier":"high","family":"commercial","model":"building-skyscraper-d.glb","x":13.4,"z":2.1,"width":2.1,"yaw":90},
+  {"id":"F03","district":"finance","tier":"high","family":"commercial","model":"building-skyscraper-e.glb","x":18.3,"z":2.1,"width":2.0,"yaw":0},
+
+  {"id":"R01","district":"residential","tier":"low","family":"suburban","model":"building-type-a.glb","x":-32.4,"z":12.0,"width":1.6,"yaw":0},
+  {"id":"R02","district":"residential","tier":"low","family":"suburban","model":"building-type-c.glb","x":-26.5,"z":12.5,"width":1.6,"yaw":90},
+  {"id":"R03","district":"residential","tier":"low","family":"suburban","model":"building-type-d.glb","x":-33.0,"z":21.5,"width":1.6,"yaw":90},
+  {"id":"R04","district":"residential","tier":"mid","family":"suburban","model":"building-type-n.glb","x":-26.5,"z":22.0,"width":1.9,"yaw":0},
+
+  {"id":"S01","district":"residential","tier":"mid","family":"suburban","model":"building-type-k.glb","x":-17.5,"z":15.5,"width":1.9,"yaw":0},
+  {"id":"S02","district":"residential","tier":"low","family":"suburban","model":"building-type-b.glb","x":-10.5,"z":15.5,"width":1.6,"yaw":90},
+  {"id":"S03","district":"entertainment","tier":"mid","family":"commercial","model":"building-i.glb","x":-2.0,"z":15.5,"width":2.0,"yaw":0},
+  {"id":"S04","district":"residential","tier":"low","family":"suburban","model":"building-type-e.glb","x":-17.5,"z":21.7,"width":1.6,"yaw":90},
+  {"id":"S05","district":"residential","tier":"mid","family":"suburban","model":"building-type-m.glb","x":-10.0,"z":21.5,"width":1.9,"yaw":0},
+  {"id":"S06","district":"entertainment","tier":"low","family":"commercial","model":"building-f.glb","x":-2.5,"z":21.5,"width":1.7,"yaw":90},
+
+  {"id":"E01","district":"entertainment","tier":"low","family":"commercial","model":"building-c.glb","x":7.0,"z":14.8,"width":1.7,"yaw":0},
+  {"id":"E02","district":"entertainment","tier":"mid","family":"commercial","model":"building-l.glb","x":11.5,"z":14.8,"width":2.0,"yaw":90},
+  {"id":"E03","district":"entertainment","tier":"mid","family":"commercial","model":"building-m.glb","x":17.5,"z":14.8,"width":2.0,"yaw":0},
+  {"id":"E04","district":"waterfront","tier":"low","family":"commercial","model":"building-e.glb","x":5.8,"z":20.5,"width":1.7,"yaw":90},
+  {"id":"E05","district":"waterfront","tier":"mid","family":"industrial","model":"building-o.glb","x":12.0,"z":20.5,"width":2.2,"yaw":0},
+  {"id":"E06","district":"waterfront","tier":"low","family":"commercial","model":"building-n.glb","x":17.8,"z":20.5,"width":1.8,"yaw":90},
+
+  {"id":"P01","district":"waterfront","tier":"mid","family":"commercial","model":"building-j.glb","x":36.0,"z":-17.5,"width":1.8,"yaw":90},
+  {"id":"P02","district":"waterfront","tier":"high","family":"commercial","model":"building-skyscraper-c.glb","x":36.0,"z":-5.0,"width":2.0,"yaw":0},
+  {"id":"P03","district":"waterfront","tier":"mid","family":"commercial","model":"building-g.glb","x":36.0,"z":6.0,"width":1.8,"yaw":90},
+  {"id":"P04","district":"waterfront","tier":"mid","family":"suburban","model":"building-type-s.glb","x":36.0,"z":18.0,"width":1.9,"yaw":0}
+]

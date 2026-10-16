@@ -1,0 +1,6 @@
+{
+  "common":{"aliases":["blue"],"default_portraits":["res://assets/Portraits/common/common_01.png"],"fallback_icon":"res://assets/Icons/systems/talent_common.png"},
+  "rare":{"aliases":["platinum"],"default_portraits":["res://assets/Portraits/rare/rare_01.png"],"fallback_icon":"res://assets/Icons/systems/talent_rare.png"},
+  "epic":{"aliases":["gold"],"default_portraits":["res://assets/Portraits/epic/epic_01.png"],"fallback_icon":"res://assets/Icons/systems/talent_epic.png"},
+  "legendary":{"aliases":["red"],"default_portraits":["res://assets/Portraits/legendary/legendary_01.png"],"fallback_icon":"res://assets/Icons/systems/talent_legendary.png"}
+}

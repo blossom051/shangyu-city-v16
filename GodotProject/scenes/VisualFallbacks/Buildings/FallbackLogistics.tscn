@@ -1,0 +1,7 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/models/buildings/logistics_warehouse_01.tscn" id="1"]
+
+[node name="FallbackLogistics" type="Node3D" unique_id=85920204]
+
+[node name="E1LiteModel" parent="." unique_id=2136358240 instance=ExtResource("1")]

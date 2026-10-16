@@ -1,0 +1,10 @@
+{
+  "attack":{"frame":"res://assets/Cards/v96/strategy_art_atlas.png","background":"res://assets/Cards/v96/strategy_art_atlas.png","icon":"res://assets/Cards/v96/strategy_art_atlas.png","fallback_color":"#BF4D57"},
+  "defense":{"frame":"res://assets/Cards/v96/strategy_art_atlas.png","background":"res://assets/Cards/v96/strategy_art_atlas.png","icon":"res://assets/Cards/v96/strategy_art_atlas.png","fallback_color":"#3D86BD"},
+  "counter":{"frame":"res://assets/Cards/v96/strategy_art_atlas.png","background":"res://assets/Cards/v96/strategy_art_atlas.png","icon":"res://assets/Cards/v96/strategy_art_atlas.png","fallback_color":"#7557A2"},
+  "operation":{"frame":"res://assets/Cards/v96/strategy_art_atlas.png","background":"res://assets/Cards/v96/strategy_art_atlas.png","icon":"res://assets/Cards/v96/strategy_art_atlas.png","fallback_color":"#3F9670"},
+  "finance":{"frame":"res://assets/Cards/v96/strategy_art_atlas.png","background":"res://assets/Cards/v96/strategy_art_atlas.png","icon":"res://assets/Cards/v96/strategy_art_atlas.png","fallback_color":"#D6AD54"},
+  "pitch":{"frame":"res://assets/Cards/v96/strategy_art_atlas.png","background":"res://assets/Cards/v96/strategy_art_atlas.png","icon":"res://assets/Cards/v96/strategy_art_atlas.png","fallback_color":"#C979A8"},
+  "district":{"frame":"res://assets/Cards/v96/strategy_art_atlas.png","background":"res://assets/Cards/v96/strategy_art_atlas.png","icon":"res://assets/Cards/v96/strategy_art_atlas.png","fallback_color":"#3F918D"},
+  "special":{"frame":"res://assets/Cards/v96/strategy_art_atlas.png","background":"res://assets/Cards/v96/strategy_art_atlas.png","icon":"res://assets/Cards/v96/strategy_art_atlas.png","fallback_color":"#D6AD54"}
+}

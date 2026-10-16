@@ -1,0 +1,230 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://cdpmm7bio7skc" path="res://scripts/AuctionPanel.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://de1nhmk6bhb50" path="res://assets/ui/auction/auction_hall_v913.png" id="2"]
+[ext_resource type="Script" uid="uid://6cchl1t8j531" path="res://scripts/AuctionHammerBadge.gd" id="3"]
+
+[node name="AuctionPanel" type="Control" unique_id=562103112]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Backdrop" type="TextureRect" parent="." unique_id=721188283]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("2")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Vignette" type="ColorRect" parent="." unique_id=1038065453]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.015, 0.035, 0.05, 0.34)
+
+[node name="Layout" type="VBoxContainer" parent="." unique_id=1405882505]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 42.0
+offset_top = 24.0
+offset_right = -42.0
+offset_bottom = -24.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 10
+
+[node name="Header" type="HBoxContainer" parent="Layout" unique_id=1223782205]
+custom_minimum_size = Vector2(0, 64)
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="Hammer" type="Control" parent="Layout/Header" unique_id=5112766]
+custom_minimum_size = Vector2(66, 58)
+layout_mode = 2
+script = ExtResource("3")
+
+[node name="HeaderCopy" type="VBoxContainer" parent="Layout/Header" unique_id=1200286764]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 0
+
+[node name="Kicker" type="Label" parent="Layout/Header/HeaderCopy" unique_id=284186571]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "城市资产拍卖"
+
+[node name="HeaderTitle" type="Label" parent="Layout/Header/HeaderCopy" unique_id=112059422]
+layout_mode = 2
+theme_override_font_sizes/font_size = 34
+text = "城市资产拍卖中心"
+
+[node name="Back" type="Button" parent="Layout/Header" unique_id=676332412]
+custom_minimum_size = Vector2(168, 56)
+layout_mode = 2
+text = "返回城市"
+
+[node name="Main" type="HBoxContainer" parent="Layout" unique_id=2147329342]
+custom_minimum_size = Vector2(0, 252)
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 16
+
+[node name="CurrentLot" type="PanelContainer" parent="Layout/Main" unique_id=1430095225]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="LotMargin" type="MarginContainer" parent="Layout/Main/CurrentLot" unique_id=406482846]
+layout_mode = 2
+theme_override_constants/margin_left = 26
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 26
+theme_override_constants/margin_bottom = 20
+
+[node name="LotVBox" type="VBoxContainer" parent="Layout/Main/CurrentLot/LotMargin" unique_id=1096348523]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="LotKicker" type="Label" parent="Layout/Main/CurrentLot/LotMargin/LotVBox" unique_id=1002637825]
+layout_mode = 2
+theme_override_font_sizes/font_size = 13
+text = "当前拍品"
+
+[node name="LotTitle" type="Label" parent="Layout/Main/CurrentLot/LotMargin/LotVBox" unique_id=2055552438]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "等待拍品入场"
+
+[node name="LotMetrics" type="Label" parent="Layout/Main/CurrentLot/LotMargin/LotVBox" unique_id=1594529509]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 19
+text = "城市资产评估中"
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="LotStatus" type="Label" parent="Layout/Main/CurrentLot/LotMargin/LotVBox" unique_id=954077849]
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "暗标席位尚未开放"
+autowrap_mode = 2
+
+[node name="Bid" type="PanelContainer" parent="Layout/Main" unique_id=419389900]
+custom_minimum_size = Vector2(410, 0)
+layout_mode = 2
+
+[node name="BidMargin" type="MarginContainer" parent="Layout/Main/Bid" unique_id=1485267289]
+layout_mode = 2
+theme_override_constants/margin_left = 22
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_right = 22
+theme_override_constants/margin_bottom = 18
+
+[node name="BidBody" type="VBoxContainer" parent="Layout/Main/Bid/BidMargin" unique_id=751266214]
+layout_mode = 2
+theme_override_constants/separation = 9
+
+[node name="BidKicker" type="Label" parent="Layout/Main/Bid/BidMargin/BidBody" unique_id=645357000]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "秘密报价"
+horizontal_alignment = 1
+
+[node name="Player" type="Label" parent="Layout/Main/Bid/BidMargin/BidBody" unique_id=1587895440]
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "等待竞拍人入席"
+horizontal_alignment = 1
+
+[node name="Amount" type="SpinBox" parent="Layout/Main/Bid/BidMargin/BidBody" unique_id=1348115459]
+custom_minimum_size = Vector2(0, 56)
+layout_mode = 2
+suffix = " 万"
+
+[node name="Submit" type="Button" parent="Layout/Main/Bid/BidMargin/BidBody" unique_id=1359388022]
+custom_minimum_size = Vector2(0, 56)
+layout_mode = 2
+text = "锁定暗标"
+
+[node name="BidHint" type="Label" parent="Layout/Main/Bid/BidMargin/BidBody" unique_id=102637999]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "输入 0 表示退出竞拍；全员提交后统一揭晓。"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="BiddersTitle" type="Label" parent="Layout" unique_id=580934368]
+custom_minimum_size = Vector2(0, 28)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "竞拍席  全员暗标状态"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Bidders" type="HBoxContainer" parent="Layout" unique_id=2086267666]
+custom_minimum_size = Vector2(0, 186)
+layout_mode = 2
+size_flags_vertical = 3
+alignment = 1
+
+[node name="Message" type="Label" parent="Layout" unique_id=119446959]
+custom_minimum_size = Vector2(0, 44)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "拍卖委员会正在核验本轮资产。"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="OutcomeOverlay" type="Control" parent="." unique_id=1692125785]
+visible = false
+z_index = 200
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="OutcomeShade" type="ColorRect" parent="OutcomeOverlay" unique_id=1517631599]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.01, 0.025, 0.035, 0.72)
+
+[node name="AuctionOutcome" type="Label" parent="OutcomeOverlay" unique_id=21868772]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -360.0
+offset_top = -80.0
+offset_right = 360.0
+offset_bottom = 80.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 40
+text = "成交确认"
+horizontal_alignment = 1
+vertical_alignment = 1

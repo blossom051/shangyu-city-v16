@@ -1,0 +1,149 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://h0wlk4uixvj1" path="res://scripts/CardHandPanel.gd" id="1"]
+
+[node name="CardHandPanel" type="Control" unique_id=2131083898]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Background" type="ColorRect" parent="." unique_id=62483323]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.004, 0.012, 0.02, 0.72)
+
+[node name="Drawer" type="PanelContainer" parent="." unique_id=1300695641]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 52.0
+offset_top = -830.0
+offset_right = -52.0
+offset_bottom = -38.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Layout" type="VBoxContainer" parent="." unique_id=1396338200]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 74.0
+offset_top = -804.0
+offset_right = -74.0
+offset_bottom = -54.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 9
+
+[node name="Header" type="HBoxContainer" parent="Layout" unique_id=1436722628]
+custom_minimum_size = Vector2(0, 44)
+layout_mode = 2
+
+[node name="Title" type="Label" parent="Layout/Header" unique_id=725436180]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 25
+text = "策略手牌"
+
+[node name="Hint" type="Label" parent="Layout/Header" unique_id=452428081]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "单击上浮  选择目标  发动"
+vertical_alignment = 1
+
+[node name="Points" type="Label" parent="Layout/Header" unique_id=144742754]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "卡牌积分  0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Back" type="Button" parent="Layout/Header" unique_id=412855979]
+custom_minimum_size = Vector2(126, 42)
+layout_mode = 2
+text = "收起手牌"
+
+[node name="DiscardNotice" type="Label" parent="Layout" unique_id=844744866]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 15
+text = "手牌超过上限，请选择一张弃置"
+horizontal_alignment = 1
+
+[node name="PointsGuide" type="Label" parent="Layout" unique_id=1099052465]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "弃牌积分：蓝1 / 金2 / 铂金4 / 红8"
+horizontal_alignment = 1
+
+[node name="Hand" type="HBoxContainer" parent="Layout" unique_id=1050329621]
+custom_minimum_size = Vector2(0, 382)
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 8
+alignment = 1
+
+[node name="Targets" type="ScrollContainer" parent="Layout" unique_id=1056484789]
+custom_minimum_size = Vector2(0, 126)
+layout_mode = 2
+vertical_scroll_mode = 0
+
+[node name="TargetRow" type="HBoxContainer" parent="Layout/Targets" unique_id=742337804]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Message" type="Label" parent="Layout" unique_id=1188067642]
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "选择一张策略卡，效果与目标会在这里显示。"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="SelectionHint" type="Label" parent="Layout" unique_id=1493504560]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+horizontal_alignment = 1
+
+[node name="Actions" type="HBoxContainer" parent="Layout" unique_id=1831809683]
+layout_mode = 2
+theme_override_constants/separation = 12
+alignment = 1
+
+[node name="RedeemNormal" type="Button" parent="Layout/Actions" unique_id=1257292534]
+custom_minimum_size = Vector2(220, 44)
+layout_mode = 2
+text = "12积分  三选一策略卡"
+
+[node name="RedeemRed" type="Button" parent="Layout/Actions" unique_id=1775688656]
+custom_minimum_size = Vector2(220, 44)
+layout_mode = 2
+text = "24积分  红卡三选一"
+
+[node name="Discard" type="Button" parent="Layout/Actions" unique_id=1870449638]
+custom_minimum_size = Vector2(190, 44)
+layout_mode = 2
+text = "选中卡牌后弃置"
+
+[node name="Cancel" type="Button" parent="Layout/Actions" unique_id=1649669998]
+custom_minimum_size = Vector2(156, 44)
+layout_mode = 2
+text = "取消选择"
+
+[node name="Play" type="Button" parent="Layout/Actions" unique_id=1815525544]
+custom_minimum_size = Vector2(230, 48)
+layout_mode = 2
+text = "发动卡牌"

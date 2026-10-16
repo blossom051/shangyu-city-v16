@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://cyb23l16p5vrn" path="res://scripts/CardView.gd" id="1"]
+
+[node name="CardView" type="Button" unique_id=2139066695]
+script = ExtResource("1")

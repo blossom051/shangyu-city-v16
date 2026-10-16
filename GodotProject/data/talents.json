@@ -1,0 +1,22 @@
+[
+  {"id":"t01","name":"林澈","quality":"blue","role":"营销","effect":"企业收入 +8%","stat":"income","value":0.08},
+  {"id":"t02","name":"周祺","quality":"blue","role":"运营","effect":"固定成本 -8%","stat":"cost","value":0.08},
+  {"id":"t03","name":"江予","quality":"blue","role":"建设","effect":"入驻时工期 -1","stat":"build","value":1},
+  {"id":"t04","name":"许安","quality":"blue","role":"风控","effect":"风险损失 -10%","stat":"risk","value":0.10},
+  {"id":"t05","name":"程知","quality":"blue","role":"财务","effect":"贷款利息 -6%","stat":"interest","value":0.06},
+  {"id":"t06","name":"沈桥","quality":"blue","role":"供应链","effect":"供应链企业收入 +10%","stat":"supply","value":0.10},
+  {"id":"t07","name":"顾遥","quality":"blue","role":"公关","effect":"投诉损失 -15%","stat":"pr","value":0.15},
+  {"id":"t08","name":"陆川","quality":"blue","role":"投资","effect":"投资收益 +8%","stat":"invest","value":0.08},
+  {"id":"t09","name":"魏岚","quality":"platinum","role":"营销","effect":"企业收入 +14%","stat":"income","value":0.14},
+  {"id":"t10","name":"叶臻","quality":"platinum","role":"运营","effect":"固定成本 -15%","stat":"cost","value":0.15},
+  {"id":"t11","name":"唐砚","quality":"platinum","role":"建设","effect":"入驻时工期 -2","stat":"build","value":2},
+  {"id":"t12","name":"韩序","quality":"platinum","role":"守护","effect":"20% 抵消负面效果","stat":"guard","value":0.20},
+  {"id":"t13","name":"乔语","quality":"platinum","role":"公关","effect":"投诉损失 -30%","stat":"pr","value":0.30},
+  {"id":"t14","name":"傅青","quality":"gold","role":"供应链","effect":"供应链企业收入 +24%","stat":"supply","value":0.24},
+  {"id":"t15","name":"苏衍","quality":"gold","role":"投资","effect":"股票与创投收益 +20%","stat":"invest","value":0.20},
+  {"id":"t16","name":"宋骁","quality":"gold","role":"间谍","effect":"扰动效果 +30%","stat":"spy","value":0.30},
+  {"id":"t17","name":"纪宁","quality":"gold","role":"风控","effect":"风险损失 -35%","stat":"risk","value":0.35},
+  {"id":"t18","name":"商璟","quality":"red","role":"营销","effect":"企业收入 +40%","stat":"income","value":0.40},
+  {"id":"t19","name":"闻策","quality":"red","role":"运营","effect":"固定成本 -40%","stat":"cost","value":0.40},
+  {"id":"t20","name":"黎曜","quality":"red","role":"守护","effect":"首次负面效果必定抵消","stat":"guard_once","value":1}
+]

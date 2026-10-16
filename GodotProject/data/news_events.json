@@ -1,0 +1,23 @@
+[
+  {"id":"n01","title":"城市消费券传出扩围消息","tags":["消费"],"direction":1,"strength":0.05,"credibility":"medium"},
+  {"id":"n02","title":"科技园或迎来研发补贴","tags":["科技"],"direction":1,"strength":0.07,"credibility":"low"},
+  {"id":"n03","title":"住宅成交量出现降温信号","tags":["地产"],"direction":-1,"strength":0.05,"credibility":"high"},
+  {"id":"n04","title":"社区医疗采购需求上升","tags":["医疗"],"direction":1,"strength":0.04,"credibility":"high"},
+  {"id":"n05","title":"主干道施工可能影响物流","tags":["物流"],"direction":-1,"strength":0.06,"credibility":"medium"},
+  {"id":"n06","title":"夜间经济试点名单即将公布","tags":["文娱"],"direction":1,"strength":0.08,"credibility":"low"},
+  {"id":"n07","title":"银行或收紧高负债企业授信","tags":["金融"],"direction":-1,"strength":0.05,"credibility":"medium"},
+  {"id":"n08","title":"新能源园区订单增长","tags":["新能源"],"direction":1,"strength":0.06,"credibility":"high"},
+  {"id":"n09","title":"老城改造方案进入评审","tags":["地产","消费"],"direction":1,"strength":0.04,"credibility":"medium"},
+  {"id":"n10","title":"食品抽检发现批次异常，餐饮与超市暂时失去客流","tags":["消费","食品"],"sector":"consumer","type_ids":["restaurant","supermarket"],"direction":-1,"strength":0.09,"business_income":0.70,"business_cost":1.25,"credibility":"high"},
+  {"id":"n11","title":"食品安全复查通过，餐饮与超市客流回升","tags":["消费","食品"],"sector":"consumer","type_ids":["restaurant","supermarket"],"direction":1,"strength":0.07,"business_income":1.20,"credibility":"high"},
+  {"id":"n12","title":"港区道路封闭，物流仓储园配送延误","tags":["物流"],"sector":"logistics","type_ids":["logistics"],"direction":-1,"strength":0.08,"business_income":0.76,"business_cost":1.16,"credibility":"high"},
+  {"id":"n13","title":"跨境订单集中到港，物流仓储园加速周转","tags":["物流"],"sector":"logistics","type_ids":["logistics"],"direction":1,"strength":0.07,"business_income":1.23,"credibility":"high"},
+  {"id":"n14","title":"科技采购计划落地，研发中心和孵化器新增订单","tags":["科技"],"sector":"technology","type_ids":["research","incubator","fintech_lab"],"direction":1,"strength":0.08,"business_income":1.23,"credibility":"high"},
+  {"id":"n15","title":"数据安全审查启动，数据交易中心服务放缓","tags":["科技"],"sector":"technology","type_ids":["data_exchange"],"direction":-1,"strength":0.09,"business_income":0.68,"business_cost":1.12,"credibility":"high"},
+  {"id":"n16","title":"商圈节假日活动延长，餐饮与娱乐场所客流上升","tags":["消费","文娱"],"sector":"consumer","type_ids":["restaurant","entertainment","mall"],"direction":1,"strength":0.07,"business_income":1.20,"credibility":"high"},
+  {"id":"n17","title":"消防集中检查，商业综合体与娱乐场所营业受限","tags":["文娱"],"sector":"entertainment","type_ids":["entertainment","mall"],"direction":-1,"strength":0.08,"business_income":0.72,"business_cost":1.18,"credibility":"high"},
+  {"id":"n18","title":"社区医疗采购扩大，诊疗服务需求增长","tags":["医疗"],"sector":"medical","type_ids":["clinic"],"direction":1,"strength":0.07,"business_income":1.24,"credibility":"high"},
+  {"id":"n19","title":"医疗耗材价格上涨，社区医疗中心成本增加","tags":["医疗"],"sector":"medical","type_ids":["clinic"],"direction":-1,"strength":0.06,"business_cost":1.30,"credibility":"high"},
+  {"id":"n20","title":"办公租赁需求放缓，金融办公楼空置率上升","tags":["金融"],"sector":"finance","type_ids":["financial_office","investment_bank_hq"],"direction":-1,"strength":0.07,"business_income":0.76,"credibility":"high"},
+  {"id":"n21","title":"国际会展签约高峰，会展中心新增客户","tags":["地产"],"sector":"property","type_ids":["international_convention"],"direction":1,"strength":0.08,"business_income":1.28,"credibility":"high"}
+]

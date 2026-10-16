@@ -1,0 +1,5 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/CardView.tscn" id="1"]
+
+[node name="CardViewTemplate" unique_id=370950246 instance=ExtResource("1")]

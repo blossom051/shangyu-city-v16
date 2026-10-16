@@ -1,0 +1,21 @@
+# Private application state and generated files
+.godot/
+.autoconverted/
+build/
+Builds/
+WindowsBuild/
+*.exe
+*.pck
+*.zip
+*.log
+*.tmp
+*.sycl
+*.syb
+*.pem
+*.key
+.env
+.env.*
+export_presets.cfg
+__pycache__/
+# Assets require a separate redistribution review
+GodotProject/assets/

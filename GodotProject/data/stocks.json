@@ -1,0 +1,10 @@
+[
+  {"id":"consumer","name":"城悦消费","sector":"消费","price":680,"color":"#E86D5A"},
+  {"id":"technology","name":"启元科技","sector":"科技","price":1280,"color":"#377FD1"},
+  {"id":"property","name":"万景地产","sector":"地产","price":920,"color":"#4D8B63"},
+  {"id":"medical","name":"青禾医疗","sector":"医疗","price":760,"color":"#45A88C"},
+  {"id":"logistics","name":"港联物流","sector":"物流","price":540,"color":"#C88B3E"},
+  {"id":"entertainment","name":"星幕文娱","sector":"文娱","price":430,"color":"#B65A8E"},
+  {"id":"finance","name":"金鼎金融","sector":"金融","price":1560,"color":"#D4A62D"},
+  {"id":"energy","name":"远航新能源","sector":"新能源","price":1080,"color":"#59A95B"}
+]

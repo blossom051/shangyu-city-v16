@@ -1,0 +1,7 @@
+{
+  "bgm_day": {"path": "res://assets/audio/generated/bgm_day.wav"},
+  "bgm_evening": {"path": "res://assets/audio/generated/bgm_evening.wav"},
+  "bgm_night": {"path": "res://assets/audio/generated/bgm_night.wav"},
+  "click": {"path": "res://assets/audio/generated/sfx_click.wav"},
+  "hover": {"path": "res://assets/audio/generated/sfx_hover.wav"}
+}

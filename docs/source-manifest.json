@@ -1,0 +1,2837 @@
+[
+  {
+    "bytes": 2838,
+    "path": "GodotProject/scripts/AIBehaviorProfile.gd",
+    "sha256": "4A2313DCF62F903083C9DF1721246227AFF2ABE3457C21CB7C6805827C9BBB89"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/AIBehaviorProfile.gd.uid",
+    "sha256": "2968C940528E429B7D51E4E1B2E161731ED865E3F468B6D2664A51E4ACBC93CD"
+  },
+  {
+    "bytes": 5868,
+    "path": "GodotProject/scripts/AIDecisionBadge.gd",
+    "sha256": "C7C337D4A7BD03FA1DEFD5B4613DF05CBA758481B2A906D0DE400770D3137D99"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/AIDecisionBadge.gd.uid",
+    "sha256": "6A0239020BA34951B998AD44839161F8475940B8BF17A5C857F2EAB447CD843B"
+  },
+  {
+    "bytes": 20278,
+    "path": "GodotProject/scripts/AIDecisionEngine.gd",
+    "sha256": "AE8008A9F254FE9EA46D6DF8127B2ADCA2EDCB4335E939D95A2EC4DF0CA99EA8"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/AIDecisionEngine.gd.uid",
+    "sha256": "AA05430B7066D3C399CC08754AC86F521BAD7C1F8FE9053D521A7ACE9D9209CD"
+  },
+  {
+    "bytes": 1802,
+    "path": "GodotProject/scripts/AIDifficultyPolicy.gd",
+    "sha256": "0E41E36A9C8B16A20B2546788F15CA3EDE45807453E3475B2ACD4A589D85C03F"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/AIDifficultyPolicy.gd.uid",
+    "sha256": "2893596923ECAAB2D8AE42AC0B62C0C235B33AA254E740D51B97D5F740F50217"
+  },
+  {
+    "bytes": 7419,
+    "path": "GodotProject/scripts/AIDirectorRoster.gd",
+    "sha256": "70A9EF95A463D9A2C8755E07CED1AAFB58E069D20CAED609CCFA12B5A2F7BA8A"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/AIDirectorRoster.gd.uid",
+    "sha256": "2654E211DDAE5B400E83E56E958258B1977EBE6E11B58BAED6730254907EE61D"
+  },
+  {
+    "bytes": 12370,
+    "path": "GodotProject/scripts/AIPlayer.gd",
+    "sha256": "15315D98197C3C051E260BE6B8B030F419BBA4E63724D0F6D3817240B63EE1E0"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/AIPlayer.gd.uid",
+    "sha256": "6C2FA73D86602D62D95800EDE9A66076B754102D57756ADC443C56E4D74CA29A"
+  },
+  {
+    "bytes": 9803,
+    "path": "GodotProject/scripts/AITurnPresenter.gd",
+    "sha256": "DCFE60DA119DA9E8FFA09D42E68739BF20BFAAED151562944DA914DFE7860782"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/AITurnPresenter.gd.uid",
+    "sha256": "1AA7F198FC8B7DD7C50CB15A6B61D28359CB9B5AB4DBE23C682FD3703DD9C148"
+  },
+  {
+    "bytes": 2639,
+    "path": "GodotProject/scripts/AssetActionConfirmDialog.gd",
+    "sha256": "6C61FA428027FB1AD789F9C37B4F25D9BDC176D1A942F38B640AA4F7809B7A07"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/AssetActionConfirmDialog.gd.uid",
+    "sha256": "745119F1D065110DE07522486471516787ADF30621163AC62A27A314FF105643"
+  },
+  {
+    "bytes": 3448,
+    "path": "GodotProject/scripts/AssetStateService.gd",
+    "sha256": "2B5AF0423475545C24718DB161D4E23B72934895A40D71905DE0F8EEFE8AF736"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/AssetStateService.gd.uid",
+    "sha256": "FAE4271EE07EFC69666F60BD2D7407AF44A9A4FC53CFA7066A460D9E466607B7"
+  },
+  {
+    "bytes": 934,
+    "path": "GodotProject/scripts/AuctionHammerBadge.gd",
+    "sha256": "4AB16DED47FF9AE5ACB7CDB9D23AF215B3C19F9C702A789C1E63595422FDE1C9"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/AuctionHammerBadge.gd.uid",
+    "sha256": "D7E2E464B4DAD6B181911BF5660A0C9F84247ED56C8B62186A58BBD591F200F7"
+  },
+  {
+    "bytes": 2014,
+    "path": "GodotProject/scripts/AuctionNoticeState.gd",
+    "sha256": "C85437170DDF3667DA49829D592414A854193A591064AA117ED3F512269F6246"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/AuctionNoticeState.gd.uid",
+    "sha256": "4BA9A4491EE1652AD349185221CC12E983EADFCA6387C9522B17F3E62553A643"
+  },
+  {
+    "bytes": 17053,
+    "path": "GodotProject/scripts/AuctionPanel.gd",
+    "sha256": "A8650D3F6678BBFF0D86833F4F007F3599FC779BDE8EF1BF4E85F902609A5AA4"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/AuctionPanel.gd.uid",
+    "sha256": "F457C67D903F826D41A6510B0063A4CA264BCFA4C3566C32E19865ED7F19A383"
+  },
+  {
+    "bytes": 17812,
+    "path": "GodotProject/scripts/AuctionSystem.gd",
+    "sha256": "AE1B680D6F27257CC38DAFD29DC0D69F7A6D127CC30B4449F8576822ED1B2961"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/AuctionSystem.gd.uid",
+    "sha256": "C55A8CB2565544A197BF979D5AC380571F6DBB60C492E8CB074AAB7F2C43993B"
+  },
+  {
+    "bytes": 14625,
+    "path": "GodotProject/scripts/AudioManager.gd",
+    "sha256": "83F1D8723342702A77950C2726EEB4D37CA12102C5A89B1AB23E84B50CBF6C93"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/AudioManager.gd.uid",
+    "sha256": "0EA1996984F21DFFDF64CF9C905DB56428BE8FA79FF6A0319463593FAC2A7C17"
+  },
+  {
+    "bytes": 23536,
+    "path": "GodotProject/scripts/BalanceSimulation.gd",
+    "sha256": "A66709623E8F0CACF6862C7D6F9B22ADB1548D49C6506E8A329F13D6728EEABC"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/BalanceSimulation.gd.uid",
+    "sha256": "2501EE1167AE25381E0BA4247B94DFFFAF8FAD6A2BAC27B4159FEB9F85309674"
+  },
+  {
+    "bytes": 16454,
+    "path": "GodotProject/scripts/BankPanel.gd",
+    "sha256": "8A404FDEDCA7DDB7093D35A4E2931B2B3CBD11911B0A9F3FA8C3D326E6C58ABC"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/BankPanel.gd.uid",
+    "sha256": "67902476474DDC643882A038F80D7F825A3823B0EB2908A0F63537E770005BDE"
+  },
+  {
+    "bytes": 50560,
+    "path": "GodotProject/scripts/BankSystem.gd",
+    "sha256": "42A2FB4384710D3D7FFEBB33A733F79316E67BD04C3419C6346B86FD04819054"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/BankSystem.gd.uid",
+    "sha256": "C95A058C8E45D1A05ED27B1F9D5DCBFD56585EB8074851885D466AAC92F89F23"
+  },
+  {
+    "bytes": 3615,
+    "path": "GodotProject/scripts/BusinessBuildPanel.gd",
+    "sha256": "D735EA63E6A5DA3B077FA8F4E6A2249B8CF02D01EA8F12EB7166C0CBE1D6EE1C"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/BusinessBuildPanel.gd.uid",
+    "sha256": "1A06E9990A859951CD88C7B25909036E261D6B81D02DE246DE93D0AFAACC8B5D"
+  },
+  {
+    "bytes": 733,
+    "path": "GodotProject/scripts/BusinessInstance.gd",
+    "sha256": "7C537A47EF115DFA7A043AEF8A7F9DD7531AAA852A0BF1B4F56280B82016F632"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/BusinessInstance.gd.uid",
+    "sha256": "AE22F6D4863BADAD58288B5E16401D1003A26C099FB5131D659A1E51593F27B6"
+  },
+  {
+    "bytes": 8942,
+    "path": "GodotProject/scripts/BusinessOfferCard.gd",
+    "sha256": "77252C0117389D4F8FDD208448FAC5CEA8CB3F27D58EA073F01571518548ACAE"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/BusinessOfferCard.gd.uid",
+    "sha256": "C2A8D7DE6CEDDCE4EC8561FE74CA83DC32CCF1A77B48225724126E9F5B321B2D"
+  },
+  {
+    "bytes": 4579,
+    "path": "GodotProject/scripts/BusinessRecommendationEngine.gd",
+    "sha256": "66BE7D8B16D626F6B95E6AB4804FCEA92C8AA78E8497794A6146FEBD70585BAA"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/BusinessRecommendationEngine.gd.uid",
+    "sha256": "5DA8C68E907A0C26CB9B9EF4FB319EB386C6FDF891B6D92508CF7F04EEAEE2AD"
+  },
+  {
+    "bytes": 22734,
+    "path": "GodotProject/scripts/BusinessSystem.gd",
+    "sha256": "B5F9F71DC70626D63B29D7985BFE8A198B8D459D0569946A24BD6867409415A3"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/BusinessSystem.gd.uid",
+    "sha256": "70850A33C65666B4626A285B233F6C2A2A9811F8BA540128E4CB6B9C15E8F7B5"
+  },
+  {
+    "bytes": 4076,
+    "path": "GodotProject/scripts/CapitalArcaneFX.gd",
+    "sha256": "8BD983969F0DACECA7A1CEE95DEEE1203BEC059DA6BD4D551721456F185D3D70"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CapitalArcaneFX.gd.uid",
+    "sha256": "F7F4993BBDA750501B9D36998496E888700C82DD8EAA63C1E6E025BFA4EA1770"
+  },
+  {
+    "bytes": 2008,
+    "path": "GodotProject/scripts/CapitalHudRibbon.gd",
+    "sha256": "E93C4C81B60030D90B48C542D21614831088EDD0165B1A0D1811401BF10BA9EA"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CapitalHudRibbon.gd.uid",
+    "sha256": "49A37BE23EC566DD385AA9DBA93BC3D02DA0FF2090A9C9A596A439EA14CF233A"
+  },
+  {
+    "bytes": 22771,
+    "path": "GodotProject/scripts/CapitalMarketPanel.gd",
+    "sha256": "5D05CDC2BCAF434D7537939557D166FD0AB8C8B2CD756E31D6ECE9D02E06A851"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CapitalMarketPanel.gd.uid",
+    "sha256": "DE71CAAD0B5865E0F5B7ADEB626CD55BDE556AAEF9BA5E94A028CB31A2F7A686"
+  },
+  {
+    "bytes": 1161,
+    "path": "GodotProject/scripts/CapitalMetricEmblem.gd",
+    "sha256": "47872D6E4667B197A0BE94784CEACC5C83AF9560891C1DBE8E1B71436E43ABDB"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CapitalMetricEmblem.gd.uid",
+    "sha256": "DB9F9532D0320975CE4BC24F0A0EA79A24FFDA3F401306A38706CF62FC39DED2"
+  },
+  {
+    "bytes": 3507,
+    "path": "GodotProject/scripts/CapitalReactionWindow.gd",
+    "sha256": "B02F850F9289F5F088792D55F93B2F135E12D85A8AB7D76B52317388830998CD"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CapitalReactionWindow.gd.uid",
+    "sha256": "F215C81F6B3DB5C1784B4CDF63CB0F9FA13E9820E61C953C19A6D9BF927FD5FC"
+  },
+  {
+    "bytes": 3756,
+    "path": "GodotProject/scripts/CapitalSeasonDial.gd",
+    "sha256": "1490F524442135302AC1C3883188C102BC2CB84A8A61CB49AFCD01E0C167D9E2"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CapitalSeasonDial.gd.uid",
+    "sha256": "89A07F3B42091CBFF7FBCF4F1F24A2B05B1EDEC210668F67AFCAAAF3160088AA"
+  },
+  {
+    "bytes": 3843,
+    "path": "GodotProject/scripts/CardArtRegistry.gd",
+    "sha256": "993BC8E456F3B0BBC0D55964E7F7B2DEB66B452CA816B7EDF1AB9522288ADB52"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/CardArtRegistry.gd.uid",
+    "sha256": "0117F27FF2B7DDE3846123164E6033EDFADEBFB90E5436B5904E74A530FE6C38"
+  },
+  {
+    "bytes": 5211,
+    "path": "GodotProject/scripts/CardBalanceEvaluator.gd",
+    "sha256": "31BC0B656FF4EA3BDDA72389997264ACD87F88A276AB5A3401DDA25C8B293F76"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CardBalanceEvaluator.gd.uid",
+    "sha256": "8BA7FC892EC2B844CC14A265B47A27B90822C868C6A55546ED128DE8594F62DB"
+  },
+  {
+    "bytes": 1866,
+    "path": "GodotProject/scripts/CardBattlePresenter.gd",
+    "sha256": "FDAC0F64CB607CC8EB660D01E88238560DFB538B7A16159E3B849A8602AD1E99"
+  },
+  {
+    "bytes": 18,
+    "path": "GodotProject/scripts/CardBattlePresenter.gd.uid",
+    "sha256": "5563E12E0398D5640AD21E014E10A9D874BFC2F4F81DF25BAA84634CBC2EAFA4"
+  },
+  {
+    "bytes": 5686,
+    "path": "GodotProject/scripts/CardBattleRules.gd",
+    "sha256": "04D383F231E1D151BD17BABB26A555AD31444893F56BC349D29C09B237EE4B5B"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CardBattleRules.gd.uid",
+    "sha256": "F21B28751D40BA75EA66EE1D7BC39B46371EE1639D178C48D5750FD3A6E5EB32"
+  },
+  {
+    "bytes": 14940,
+    "path": "GodotProject/scripts/CardCollectionGallery.gd",
+    "sha256": "77541A6B60744F9788DBD5A67BE8E0533524F127EC0AC6A068D343C57ACD7197"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CardCollectionGallery.gd.uid",
+    "sha256": "AE74CFD98B331F8B0F48B43FE5438F3DD5E2756FC360C57ED9DF413C297096D7"
+  },
+  {
+    "bytes": 2987,
+    "path": "GodotProject/scripts/CardComboRules.gd",
+    "sha256": "5FAEE4F05F1CEF8CE5EC7FA1D62F922FD199F857A9AEAEB71C260DF356F9D781"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CardComboRules.gd.uid",
+    "sha256": "05D01328CA39F7A27F3B8E160673407BAC68D2926650D088E064C4E8EDEA8BD3"
+  },
+  {
+    "bytes": 12021,
+    "path": "GodotProject/scripts/CardDrawPolicy.gd",
+    "sha256": "8F46EC451BF4C200A4641709A588F4D7A2E0F459ACD21D4131B0892F6966D5B1"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CardDrawPolicy.gd.uid",
+    "sha256": "201694F35E3E4463FDCA59723B92767BA68F0E167D2DD88FFC7149CA50E98D89"
+  },
+  {
+    "bytes": 4811,
+    "path": "GodotProject/scripts/CardDrawScene.gd",
+    "sha256": "D1FAB0B1AC8B173EAFAB67670385B63941A4D1F9B08CE710FF592479A3E5983B"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CardDrawScene.gd.uid",
+    "sha256": "828130DD1F1D75DDC6D23D34B4AE7685F97F3569F51CA7F62101C07C9D37E658"
+  },
+  {
+    "bytes": 5975,
+    "path": "GodotProject/scripts/CardEffectBurst.gd",
+    "sha256": "870072F026E8100D985B08AF1E60E41218C164768FA5D2E27A1C5D686E74C95B"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/CardEffectBurst.gd.uid",
+    "sha256": "08E7AE2C269A26565D56C8DE8580CBDEAE89A609AB3E4B386E46409AF8EEAC5C"
+  },
+  {
+    "bytes": 3114,
+    "path": "GodotProject/scripts/CardEffectContract.gd",
+    "sha256": "7FC81C3B33188EC365C0AB1391B4FD4699B5E4E9CF7A00B56B42D52E1FEC3D9D"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CardEffectContract.gd.uid",
+    "sha256": "ECAE819EF134B682BF50E849297A73CE3C3DEAE48A4D6C185900B2E3520F0991"
+  },
+  {
+    "bytes": 52793,
+    "path": "GodotProject/scripts/CardEffectResolver.gd",
+    "sha256": "8EF1AC7485E1702B6D1FA14F5D5DADC8055910C2FBBD83D8F5DDA363101A1DA0"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CardEffectResolver.gd.uid",
+    "sha256": "B0299389C1876922DA6F088899870C84CE1A373D63255F28A927EA36E3DE1F04"
+  },
+  {
+    "bytes": 31557,
+    "path": "GodotProject/scripts/CardEngine.gd",
+    "sha256": "95869D81009465EB6CE091FE35D61113FD975D7AC1D1F1FF894D06AA583F3624"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/CardEngine.gd.uid",
+    "sha256": "4AFB55B49BE6D484D20736CA98416AA81EDBC49A1AB3B6A427153AE6024AE7EC"
+  },
+  {
+    "bytes": 25738,
+    "path": "GodotProject/scripts/CardHandPanel.gd",
+    "sha256": "F5344061F5CD0F76284F79B6D807A9A64FA6D12B4AFEFD6A5EC442D6436C7290"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/CardHandPanel.gd.uid",
+    "sha256": "A0B07E0BF7FB53CBE841101B2E72546DFDCFE971EB3FB6F523627D2AF51FC617"
+  },
+  {
+    "bytes": 4400,
+    "path": "GodotProject/scripts/CardRewardChoiceOverlay.gd",
+    "sha256": "31BFBBAD0252D469E7135CD86DE66D519A6A86EAC64B58AFA95542BC90BCCBBA"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CardRewardChoiceOverlay.gd.uid",
+    "sha256": "0579BA392A78ABD5BF8B0F1DEDF4D289EA6B9540331284F36047966671756C41"
+  },
+  {
+    "bytes": 3474,
+    "path": "GodotProject/scripts/CardRewardSystem.gd",
+    "sha256": "533CA0F6262A01A99F2D344908116B49C57302F46B41C26A5FB6AFD2D7A40D56"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/CardRewardSystem.gd.uid",
+    "sha256": "D0BF813D5CA26E2829163977FB844536CAF9EF894E06D8766AB2EC8429C9D35B"
+  },
+  {
+    "bytes": 2034,
+    "path": "GodotProject/scripts/CardSystem.gd",
+    "sha256": "663D291843E5226E0003AFBA8BE06A9CBD84EDEFB70354586FC4294D5F933EFD"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/CardSystem.gd.uid",
+    "sha256": "1DB453594336F751C795B1E8BF83576BC6C99356BB3040393041B57319BC9A1D"
+  },
+  {
+    "bytes": 2029,
+    "path": "GodotProject/scripts/CardTaxonomy.gd",
+    "sha256": "59BF69007CBAAB57DAEF701024207D755884D5D63C776CBE166341ECBDB544E3"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/CardTaxonomy.gd.uid",
+    "sha256": "7FA25D3AE719DD9DF51AC3082F22DEB717AD858AD1664D16855BD9F8B57BA8B8"
+  },
+  {
+    "bytes": 2316,
+    "path": "GodotProject/scripts/CardUseGlow.gd",
+    "sha256": "8D19425BD5E2999EC5F8AE90D87CF8BFF1CF5202FBDB379A64A034455B643356"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CardUseGlow.gd.uid",
+    "sha256": "27EE0203AE72561B68D9B31306FBB82E0AF1E607E6F3F49BB62757F307D96999"
+  },
+  {
+    "bytes": 7558,
+    "path": "GodotProject/scripts/CardView.gd",
+    "sha256": "85C3C7FC818DA4582EF3E23F86244143DB02E2A42E4D32E03EE332A7CFD87B28"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CardView.gd.uid",
+    "sha256": "D0290B7B3DAE113583985060A6D65E9752A420A831CB584FA4B0AB60B0AEA467"
+  },
+  {
+    "bytes": 18294,
+    "path": "GodotProject/scripts/CardVisualLanguage.gd",
+    "sha256": "5D37DC28034F7F9EB99FD021CB96580B210F634687D6ECF475EAE4F6EB4D3006"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CardVisualLanguage.gd.uid",
+    "sha256": "503970B36D7154253E80FEFED31C20A193BB069711FFDD6B625E7B9B7FBE9878"
+  },
+  {
+    "bytes": 603,
+    "path": "GodotProject/scripts/CityActionAssetRegistry.gd",
+    "sha256": "7AA4A898973BE1A74CA1FC4F72B82F58B94E625EE108BBA107C245727B34F583"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/CityActionAssetRegistry.gd.uid",
+    "sha256": "4C5B1E77EE0E03D2EEC1F0B5110F9D0DD760BB3D464C9557930B9879B35073C5"
+  },
+  {
+    "bytes": 5734,
+    "path": "GodotProject/scripts/CityFeedbackSystem.gd",
+    "sha256": "AB4D3064A15DAB17F7778C5722E872A7083B7BB8C287F0BF2B3F224989762237"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/CityFeedbackSystem.gd.uid",
+    "sha256": "C98F4D0F6A1760CA190185EA670EC113C356866D5209E05A8AFADBF83782B944"
+  },
+  {
+    "bytes": 138494,
+    "path": "GodotProject/scripts/CityMapController.gd",
+    "sha256": "787B09D71AB8150D806D71748DECB8C5B2D9B7B1304D1B3D32232C40CCF29D02"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CityMapController.gd.uid",
+    "sha256": "327D20490435BB7F869E18ED17FD3D3B5D4B6A284560D311D14900DB4EEC8A51"
+  },
+  {
+    "bytes": 5994,
+    "path": "GodotProject/scripts/CityMobilityRoutes.gd",
+    "sha256": "0C11DAAB777298AB4D0D379EE3856D9671838E36B22E19A4BB9082373AD3F405"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CityMobilityRoutes.gd.uid",
+    "sha256": "D5CBE62B2EA7C1EB91AF1FBD76D306D3E2924AC3D04C68016D5B657E23F088BF"
+  },
+  {
+    "bytes": 14043,
+    "path": "GodotProject/scripts/CityNewsModel.gd",
+    "sha256": "9269B8211A60AD509E95B6212FE7C57357A96427956318EB003F50B67BA4EC7E"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CityNewsModel.gd.uid",
+    "sha256": "90C76912BE5B91EFB780E5089DD7724D1DCF0011FCDD85D64497EFD93DB80217"
+  },
+  {
+    "bytes": 2244,
+    "path": "GodotProject/scripts/CityObjectPool.gd",
+    "sha256": "484838583BED21987FFD12CDBEFAF737DCA5A9470328D93C3FE9C33914B9B0C7"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CityObjectPool.gd.uid",
+    "sha256": "9F51FD064AAA9F4BFC9E2EF975CF6B86A17A30244AB71AFCE415EEA91C9AC2F8"
+  },
+  {
+    "bytes": 4039,
+    "path": "GodotProject/scripts/CityUrbanFabric.gd",
+    "sha256": "F148466C7A26ECFDF9D073F3BEC0E48005A31AEA4B2A57005A31206DE0254201"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CityUrbanFabric.gd.uid",
+    "sha256": "9FF7A1EDAB60A1F10EEEEB1DD941C260D222F9A410412609950093DFEB1FB504"
+  },
+  {
+    "bytes": 6791,
+    "path": "GodotProject/scripts/CityWorldBounds.gd",
+    "sha256": "08EB64E36CC48C6E9685448E8B72238FF6308680E0FAD3E59476A823AC6AADF0"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CityWorldBounds.gd.uid",
+    "sha256": "45B6836B36A6BAC771DBC6DDDF699DB1C943D9B3EDCB2A8A3CB743EE8B746064"
+  },
+  {
+    "bytes": 5163,
+    "path": "GodotProject/scripts/CollateralSettlementService.gd",
+    "sha256": "FFFFA37A85A6109343820DEA838BA41415B9B70C90197763D0B6A5401A7303AE"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CollateralSettlementService.gd.uid",
+    "sha256": "B52D0F172D52EBF33C9A7B67CCD073441EA2A20773A012C5DA2299D35B3E92E4"
+  },
+  {
+    "bytes": 39706,
+    "path": "GodotProject/scripts/CommercialCityAssetFactory.gd",
+    "sha256": "5FE43AF8783619147E583BDF176312D98508E44BB53C51A72B6BB4A3CA9BA238"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CommercialCityAssetFactory.gd.uid",
+    "sha256": "957D0865CFDFEB746594CE49159748FE4A51632B8B11C687CC6FD40EF9565927"
+  },
+  {
+    "bytes": 76319,
+    "path": "GodotProject/scripts/CommercialCityMap.gd",
+    "sha256": "B7539600A78ACBC67E5B2FEE575CC2E0A7627E132D76F164C56E7F5F5E338B42"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CommercialCityMap.gd.uid",
+    "sha256": "BE86FD7929FAD9415E1F93462CAE54364643E081A36D67A1A5E5FD8FA3AAE7F1"
+  },
+  {
+    "bytes": 54611,
+    "path": "GodotProject/scripts/CommercialLandPlot.gd",
+    "sha256": "D2D7CE74F0D42FB33181D5A203348B0B289453DC1D329985EBA0CC27C2106677"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/CommercialLandPlot.gd.uid",
+    "sha256": "5204E82E4A9E7E18E8480EDCBAE0D30CC1F32501A9E950D14CC8638820EFCDDC"
+  },
+  {
+    "bytes": 8663,
+    "path": "GodotProject/scripts/CompanyAbilityEngine.gd",
+    "sha256": "115BA9EA3581470B15C16F236D45F201E009FF9E70C66A507E15EC705651D897"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/CompanyAbilityEngine.gd.uid",
+    "sha256": "793E9D0272802202082E27FBE5EB2B85C44E1F78E60989217513F76C3FA9DC41"
+  },
+  {
+    "bytes": 6467,
+    "path": "GodotProject/scripts/CompanyCard.gd",
+    "sha256": "0311AB556A5DC6FFE00394C514AB03B1BAEEC87A18435CA0D32A10BB4696F20C"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CompanyCard.gd.uid",
+    "sha256": "6874833B895526928B6F80D045519BF77B46C7E781705DC121DD963666F9BCCB"
+  },
+  {
+    "bytes": 2749,
+    "path": "GodotProject/scripts/CompanyDossierArt.gd",
+    "sha256": "C228FAD2A7CA74E2CCAC18A64068C216FB3DD26002690597C278A66387D92257"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CompanyDossierArt.gd.uid",
+    "sha256": "A3DD0698563FA33C5C015B906FC374297FE260DCFBD7C35F091BE3437B38999A"
+  },
+  {
+    "bytes": 17028,
+    "path": "GodotProject/scripts/CompanySelect.gd",
+    "sha256": "97D7ABE4FC6F76A4FBB6BE6F29857B3C31A4EABF77B2749B73B0D87580A66D07"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CompanySelect.gd.uid",
+    "sha256": "00B597EDEAB5C761CCC0A1D5483553C6BBE4D16457D2BA088030CB85A004302E"
+  },
+  {
+    "bytes": 3579,
+    "path": "GodotProject/scripts/CompetitionEngine.gd",
+    "sha256": "31500B210C15C97C3AD1B316308FB67F64203399AC9D75C0D16ABFFAACD275D0"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/CompetitionEngine.gd.uid",
+    "sha256": "C4F64ED6D4EF7EEAD1A353A0C631B7ED8B61B3055F1E08D31220821CB8B09465"
+  },
+  {
+    "bytes": 748,
+    "path": "GodotProject/scripts/CompetitiveEventFeed.gd",
+    "sha256": "8AEF70155BE1E6E0FA5155C9D2A82BD60E7C742CB683AD9F71923A02B156EB93"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/CompetitiveEventFeed.gd.uid",
+    "sha256": "30BE9267D6DE0D97D782727FF55C0C97B50D4434F96905F1A7C8B74B18A614ED"
+  },
+  {
+    "bytes": 8736,
+    "path": "GodotProject/scripts/ConditionalEventCatalog.gd",
+    "sha256": "A48AA319850C54A87DEDAE6A1BF676142D0E9AF1391C8FE1E0A46EB01B10FC82"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/ConditionalEventCatalog.gd.uid",
+    "sha256": "27177A0BCE10C45D0DDAC4652DFF8DB56770AB6A397F6AFA4A3E46D379291B16"
+  },
+  {
+    "bytes": 4361,
+    "path": "GodotProject/scripts/ConstructionProgressService.gd",
+    "sha256": "C47924C66DF25A3E6A3B342B0F505A2F7CAE701EFFFA47CDE45166AB25FED79F"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/ConstructionProgressService.gd.uid",
+    "sha256": "F53673D99389801C07946FCA796023E329E9104542AA03D60F45FBE4CBF1E872"
+  },
+  {
+    "bytes": 3361,
+    "path": "GodotProject/scripts/DebtDueDialog.gd",
+    "sha256": "512554791F7479254257CB34FC2F430588A85ED66F25D71F7952A3C81E039000"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/DebtDueDialog.gd.uid",
+    "sha256": "1AAD7A8067513DE2E14E9BC9BCE4FE38A689CA2E86C4CC5434865886D83F5374"
+  },
+  {
+    "bytes": 3112,
+    "path": "GodotProject/scripts/DelinquencyBankruptcyDialog.gd",
+    "sha256": "728B4A845BD03B260107F0E59EDC3B9BA8E77DFBDB43F54FAB608F0AD7F36A04"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/DelinquencyBankruptcyDialog.gd.uid",
+    "sha256": "B97B7B411ED5C6CDE8DAB832BCB757A273794B3C56479D30A8D26A28C44D52B9"
+  },
+  {
+    "bytes": 1576,
+    "path": "GodotProject/scripts/DisplayEffects.gd",
+    "sha256": "FAA2A843D9AEF264EB8897DEF20C6BD0F7052EEB110C3A34C52152C60D63F105"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/DisplayEffects.gd.uid",
+    "sha256": "CBEDFCF59EFCEF2D1EF4E8E591D797E24E7F13C8B552FD147A84A09DFBBC9F6E"
+  },
+  {
+    "bytes": 5486,
+    "path": "GodotProject/scripts/DistrictSystem.gd",
+    "sha256": "254535FD6D55C4B488F36EA7CBEE9BDEAC93D9C7F226F1765DD530E50C2E20D2"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/DistrictSystem.gd.uid",
+    "sha256": "C7EE349E1367AA3463A41F153BF1ABE6695CD5E80263FD75FE9DF82AF1F1E688"
+  },
+  {
+    "bytes": 3935,
+    "path": "GodotProject/scripts/EconomicCycleDialog.gd",
+    "sha256": "304A054338DEE9B15ECDD3F8CC289BB8308F60B23BC3590D8B4EF9CA8E0A8D34"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/EconomicCycleDialog.gd.uid",
+    "sha256": "1762FABF76051250A93F92B0915D90DAD4D181DEFD6EDB06BD8769F2752B248D"
+  },
+  {
+    "bytes": 976,
+    "path": "GodotProject/scripts/EconomyDebugAudit.gd",
+    "sha256": "6E1903741BEC62E08BE8E98846D48156A265413EA8E7F5834E36722CC64CF164"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/EconomyDebugAudit.gd.uid",
+    "sha256": "C6DE4F2922EC546C50CA0BBEFB8DAA72A748C4A4248E88F5BC700EC0060DEFEA"
+  },
+  {
+    "bytes": 546,
+    "path": "GodotProject/scripts/EconomyMath.gd",
+    "sha256": "0F31052BFB26F8468BA78EBD85DD9756008BD14DEEE2565257B9655A8BDF8F53"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/EconomyMath.gd.uid",
+    "sha256": "E042E23B119F4F639E7FB4E7D71F16912AB7030B0595864115F3DED3CE368919"
+  },
+  {
+    "bytes": 1026,
+    "path": "GodotProject/scripts/EconomyTransactionService.gd",
+    "sha256": "BCEC434945ECC4C36AC09D1CD1337C6AE7E60A5BE32D87455AAB19D4B9F114A9"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/EconomyTransactionService.gd.uid",
+    "sha256": "2A3A4AE2B584DE10B4267F17D608955388BEB0C9F120E47944A7BA5D72113409"
+  },
+  {
+    "bytes": 16870,
+    "path": "GodotProject/scripts/EmployeeManagementDialog.gd",
+    "sha256": "CD5374C44142E1A3D12AA26403467116E4085AEAE38C601370500F3201FE2C1E"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/EmployeeManagementDialog.gd.uid",
+    "sha256": "9D057BFBBF240BE6917D0C3D3E8F5D1F17267D8602DA4733A0CA224834CEEE4D"
+  },
+  {
+    "bytes": 3481,
+    "path": "GodotProject/scripts/EndlessCheatDialog.gd",
+    "sha256": "7EAD012EADF5DA5C6C87AD2CF956711CAF3C804830EB6C13E97C3013BCA888F0"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/EndlessCheatDialog.gd.uid",
+    "sha256": "63C1A7AFC037743B885FBDBFB053068FA21BD8EB6422F3A5D362299F1B756A58"
+  },
+  {
+    "bytes": 1385,
+    "path": "GodotProject/scripts/EndlessCheatSystem.gd",
+    "sha256": "51D4E17F9C72306BFA83D78F8CB80EDD8E905B9725C49A18A9C5A03418BDCA5D"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/EndlessCheatSystem.gd.uid",
+    "sha256": "CD41F23C1508189CE662EFCBF88169780593BFBB5253B4E1841F845D2F34B7B7"
+  },
+  {
+    "bytes": 30833,
+    "path": "GodotProject/scripts/EndlessOperationsSystem.gd",
+    "sha256": "D3613C5638ECCFCA8D9B04574E5BBD3798B49237194277A741A10D82505C0761"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/EndlessOperationsSystem.gd.uid",
+    "sha256": "54F1038911CA917C25C772D1B1318FA54680698459FA737C64046DCC88726BD1"
+  },
+  {
+    "bytes": 1878,
+    "path": "GodotProject/scripts/EventOpeningFX.gd",
+    "sha256": "7A2177A2E620408909B4B695FAA6AC56AA9BE24680FE64423DD5946A82537B70"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/EventOpeningFX.gd.uid",
+    "sha256": "01077F6254B11F1C62AF04266E2EDE48B8833BA4889D40A08E38272DE09D10EB"
+  },
+  {
+    "bytes": 3627,
+    "path": "GodotProject/scripts/FinalCelebrationCanvas.gd",
+    "sha256": "DEDF0156DE1339BB103A079BC50A8DBF49FFA6EEE244D8DC6E4FBED1EAA08120"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/FinalCelebrationCanvas.gd.uid",
+    "sha256": "E3CCFBEBD2374586D9B91E6BE7130A10E66A3E1DD9539ADEF516DF2D824B1322"
+  },
+  {
+    "bytes": 812,
+    "path": "GodotProject/scripts/FinalCompositionBar.gd",
+    "sha256": "51E4ADAAC9CA4C780BC00A53AB868ACDEF83011C9EBC21AC46A21614F50F06B5"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/FinalCompositionBar.gd.uid",
+    "sha256": "0344A504A843A30A75523A9D72CA0AFBAC51732640B2B9895C7D990DFC54AC80"
+  },
+  {
+    "bytes": 1564,
+    "path": "GodotProject/scripts/FinalMedalBadge.gd",
+    "sha256": "73562A002A8396A511B253269B4B00CD63BFB3A3C76DA6BDDA1C8C50D9F6AAF7"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/FinalMedalBadge.gd.uid",
+    "sha256": "6B8073AE2E3EB427FF991F79F9634E8103DCC87BF10ECBE2E9EEA645B516F299"
+  },
+  {
+    "bytes": 20096,
+    "path": "GodotProject/scripts/FinalResult.gd",
+    "sha256": "B0AD58CECE97BA37A7F72601FAC64B91558DA8D6860C84D537C1BACC5B685847"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/FinalResult.gd.uid",
+    "sha256": "2323FA806A1C25DC4FBE4F79F14F6C78E212FA01B626950FB1FAD9AB5CACA9E8"
+  },
+  {
+    "bytes": 3468,
+    "path": "GodotProject/scripts/FinanceCharacterCard.gd",
+    "sha256": "29ED3803DD6F81335D39AE0BEAF8F8728D86766C95FF9ADC2BB5FCEDEE54A954"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/FinanceCharacterCard.gd.uid",
+    "sha256": "FAEE0F1430BFE2B7AF27F8A09B898DB9276836490F5130BF3C6AF1805E569A45"
+  },
+  {
+    "bytes": 5078,
+    "path": "GodotProject/scripts/ForcedCollectionAlert.gd",
+    "sha256": "329651FCC75EE82911355265D1661FAB752A952BB94033385977ECD4BD35D6DA"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/ForcedCollectionAlert.gd.uid",
+    "sha256": "D03822D22E9240F85696DC68D2EE5E4406BDD8EF3ED02948F4ADFFD83731D3B6"
+  },
+  {
+    "bytes": 2560,
+    "path": "GodotProject/scripts/GameConfig.gd",
+    "sha256": "60DE951940EBDE072DB6090E4DEDA81CFE248C694FBCB4993EFFFE09E9C29070"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/GameConfig.gd.uid",
+    "sha256": "DF78F180739D63690F43DF9DE88E11563BC70384993B9250D66F3DBEDCBD7E9F"
+  },
+  {
+    "bytes": 12337,
+    "path": "GodotProject/scripts/GameFlow.gd",
+    "sha256": "A922607030B1A34B93C4F5EBB62605849F49D4C87AB179499EB9AC39FB90A2C5"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/GameFlow.gd.uid",
+    "sha256": "6716DE4320A873A6D34389838D940BDCF851435FF367404395745CE2AC44EDD4"
+  },
+  {
+    "bytes": 1670,
+    "path": "GodotProject/scripts/GameModePolicy.gd",
+    "sha256": "498641E25DC9CE80A71DD119DD9695D3B99037AB034ED6C7F1848A5C4D225BC8"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/GameModePolicy.gd.uid",
+    "sha256": "45AFB74A660485FD5F171EB4F2C24C690C1BD22F07FAFF4DA6B2610C25C634EB"
+  },
+  {
+    "bytes": 10717,
+    "path": "GodotProject/scripts/GameSettings.gd",
+    "sha256": "B5E530A068362CF69BEDC3645F233314F219016A741F58014D321C078AB0E8A8"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/GameSettings.gd.uid",
+    "sha256": "B42B1AB06B16C901855C8501088120B6768A590E68E6ACB28BC37253089F6D55"
+  },
+  {
+    "bytes": 17496,
+    "path": "GodotProject/scripts/GameState.gd",
+    "sha256": "AC0808296783A492D38A61106FE9AE438FADDFB238EFD9CB35F88D345F0FF196"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/GameState.gd.uid",
+    "sha256": "4F22F65AEAE11775EC6D816FCEBCF3C955C34A96ABC571ACADBAD870ACE932BF"
+  },
+  {
+    "bytes": 1637,
+    "path": "GodotProject/scripts/GameTypography.gd",
+    "sha256": "41D56FBBA4E9D97198D17F295D35231C1847AE8AB133067BC47326F22A706229"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/GameTypography.gd.uid",
+    "sha256": "A8C5D3C1EF50352875B1D4C85E6B1FC1680FE115617CBDE9D63613258786A75E"
+  },
+  {
+    "bytes": 8213,
+    "path": "GodotProject/scripts/GildedMetalReflection.gd",
+    "sha256": "E67886CF0A43833B258AD4E621FE2D1E04064C3B3410684706E29C262FE93AA3"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/GildedMetalReflection.gd.uid",
+    "sha256": "189FD48A8404D143D7CDCD7BCD45EEC94145C7D614B55BB01DCBCD7AEB02B544"
+  },
+  {
+    "bytes": 3069,
+    "path": "GodotProject/scripts/GlobalFeedbackOverlay.gd",
+    "sha256": "9427681A85FCD5FD83BF24884446F097A276781CA5471970D514BD136FCAB2BE"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/GlobalFeedbackOverlay.gd.uid",
+    "sha256": "E5357BE45601173FD8D4267163C732078400A6BA3A0BE30B8ED7B9E6E09DF795"
+  },
+  {
+    "bytes": 10203,
+    "path": "GodotProject/scripts/GlobalMusicWidget.gd",
+    "sha256": "CE9FD37C208CD80302EEB1309274ACAFA9BF5A8D7EB15B01BA1387BD406B7E64"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/GlobalMusicWidget.gd.uid",
+    "sha256": "4E368F241FF46AB4D5D499A5FA3ACF6708ECCEEFB8A6E199727E9C24FB354B8E"
+  },
+  {
+    "bytes": 10305,
+    "path": "GodotProject/scripts/GovernmentEventSystem.gd",
+    "sha256": "0865FD095F03C6DC767ABA6EB94BBE357D2980E7A1FE0004720CE56333232A19"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/GovernmentEventSystem.gd.uid",
+    "sha256": "A1010301C62FDF12395EDE53970A1A1CBABC0E7B9D90EE967B9C0801BB1FD21C"
+  },
+  {
+    "bytes": 1448,
+    "path": "GodotProject/scripts/HumanTurnAuthority.gd",
+    "sha256": "5AD017214DE034B9BF1618BE846222EBA29BC6EDF638ACB895733B4B15AD2A7E"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/HumanTurnAuthority.gd.uid",
+    "sha256": "E5ED86371E007F02FDFD9F62115989D5B5B2102649F2901373198032E44AD188"
+  },
+  {
+    "bytes": 10287,
+    "path": "GodotProject/scripts/InsolvencySystem.gd",
+    "sha256": "BA3EC5EB4B060A8D11730C35217149661F171DC8674D8E7C42550334093E2EB8"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/InsolvencySystem.gd.uid",
+    "sha256": "C0186A1CB93BB022DD8F783880E13002E8DC244BB5E744444741DD6A06319601"
+  },
+  {
+    "bytes": 1732,
+    "path": "GodotProject/scripts/LandContractSeal.gd",
+    "sha256": "EB2E81D34926890DBDA4197DA257876342315D8E0D194BBB90E57727FADE6A28"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/LandContractSeal.gd.uid",
+    "sha256": "685FDBED01F5AA0D4F2FAC27A34CC3346A1D29899C5E49F63FBA939B682D4437"
+  },
+  {
+    "bytes": 675,
+    "path": "GodotProject/scripts/LandDetailPanel.gd",
+    "sha256": "1D7B36E179E70C6EE6C21F64F78CAF9B45BCAC7214E67D559FADF121A88637ED"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/LandDetailPanel.gd.uid",
+    "sha256": "D5F3D63FEA013EF396EFBE03D7D49DBF4C9335294939391C59DEE8CA10FA9B5C"
+  },
+  {
+    "bytes": 2356,
+    "path": "GodotProject/scripts/LandNamingService.gd",
+    "sha256": "131B22AFF1B0DB73ACEE2790D0B7BB45A5BC9811C5AC968D184C279FF9DF3D39"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/LandNamingService.gd.uid",
+    "sha256": "7616A26664EBE91D07D07DAFE7BC08ACDDDA33432DDE08A77D736F9D20542F4B"
+  },
+  {
+    "bytes": 4996,
+    "path": "GodotProject/scripts/LandParcelGeometry.gd",
+    "sha256": "A3A48CEE0D2F5145CC0E7D5FFBB6C18CF9E6CF5EBD1644DC69FE797CED0D8806"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/LandParcelGeometry.gd.uid",
+    "sha256": "C077D1E5354071A9139D127BB5BCCA3064D8ADD18FF83E67400B5F51321176B1"
+  },
+  {
+    "bytes": 10477,
+    "path": "GodotProject/scripts/LandPurchaseDialog.gd",
+    "sha256": "EC179B2E31D1F4BAC049D586D7B2B6249D9169DB398197741EFA6DCDEE7AA4A0"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/LandPurchaseDialog.gd.uid",
+    "sha256": "3BB3253205C654D465C09AB176BCF238671948E0933FD6072ECEF54FCC426627"
+  },
+  {
+    "bytes": 3731,
+    "path": "GodotProject/scripts/LandRenameDialog.gd",
+    "sha256": "6635B61DFD59E6DA9BEF8B6A659DD9C559BFFADE95ADA8DC5695E63C334B2506"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/LandRenameDialog.gd.uid",
+    "sha256": "74B6EEE2FABE23094099715976B406842DBB127E8450BD933240731386283133"
+  },
+  {
+    "bytes": 11818,
+    "path": "GodotProject/scripts/LandTile.gd",
+    "sha256": "E0FF9682BA27A4D640F9418F4E26E994295BFFCE5F97782C1652C1A2FD05BF11"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/LandTile.gd.uid",
+    "sha256": "8702607000E4BA4D23C59C2BC58D3B1A9BDBCCE8B0E42E81C9264C5C535FB6A2"
+  },
+  {
+    "bytes": 3220,
+    "path": "GodotProject/scripts/LiquidationSummaryVisual.gd",
+    "sha256": "E2CD0BA06B83A5FECEDAFB1E0576BE6AA3ACE9FED58CA23EB2A5AA760EBDB4B6"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/LiquidationSummaryVisual.gd.uid",
+    "sha256": "91D85E857B2F02F92A5A2A3C6AB5E9B6A10601428A3AAE770984740F78C52BBA"
+  },
+  {
+    "bytes": 1697,
+    "path": "GodotProject/scripts/LiquidationWarningButton.gd",
+    "sha256": "4A452C2E2AA167D80A70465EC586AE326AF8D72D4AF37FDE4E5E3F67092EBF44"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/LiquidationWarningButton.gd.uid",
+    "sha256": "0344DD866A6A3E4447DBEE241B1171F5BAD40C62B052C62216587A6238821BA3"
+  },
+  {
+    "bytes": 11775,
+    "path": "GodotProject/scripts/ListedCompanyMarketSystem.gd",
+    "sha256": "A4FBEE284A6A4969A551F56E9F9C7B0CACA290F2F6853BE7B7BB2A5759DD97A3"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/ListedCompanyMarketSystem.gd.uid",
+    "sha256": "5FBAA507B94EA6610D47DF0496784DA54E813FFF167034606C6210D625E463F7"
+  },
+  {
+    "bytes": 806,
+    "path": "GodotProject/scripts/ListedPriceSparkline.gd",
+    "sha256": "A89C333DCF61EBBFF930E5F0F731983C11EDA46873A20920DF94258240BADD51"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/ListedPriceSparkline.gd.uid",
+    "sha256": "A72591168BFBC3E9141A158F8398574788B8AA68B46D3EEA0F0953C9B3BB4A19"
+  },
+  {
+    "bytes": 4579,
+    "path": "GodotProject/scripts/LoanRepaymentPolicy.gd",
+    "sha256": "0338004A5EA894DEA92918652D19F73E0283DF02EB3ADCAD8791209D8A1CBB9B"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/LoanRepaymentPolicy.gd.uid",
+    "sha256": "377A3CD6EBF827A4CE0D601E84084357F82BDAA592766898E545D220D3360A00"
+  },
+  {
+    "bytes": 21711,
+    "path": "GodotProject/scripts/MainMenu.gd",
+    "sha256": "10D53A0A7077190B072C31CDD2DC3F189F344CAD5928733B8A0FD0F15DEC42E2"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/MainMenu.gd.uid",
+    "sha256": "A1D760118247E811EF20971E875871153AAB31A5CF378828F67A0B663968A381"
+  },
+  {
+    "bytes": 1984,
+    "path": "GodotProject/scripts/MainMenuAtmosphere.gd",
+    "sha256": "B60CE05BCA5592A480AAEF8B5DEB6748763E32A119A40066D525EE1DA48ACB08"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/MainMenuAtmosphere.gd.uid",
+    "sha256": "D77FE23D786A4CA0E2B06C00EBCD4B8C44D538ADE48144C35895CFE99716B274"
+  },
+  {
+    "bytes": 904,
+    "path": "GodotProject/scripts/MapActionBadge.gd",
+    "sha256": "CA49A23C873838C34A240DE9506C909CFBFF0ECC3EA3186BC8A05BD07410CD01"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/MapActionBadge.gd.uid",
+    "sha256": "E2697C0C9578A5F299853B4982C4999CB721B82BEF35CF0A61F6ED019E8C48FD"
+  },
+  {
+    "bytes": 2436,
+    "path": "GodotProject/scripts/MapHeatScale.gd",
+    "sha256": "DE2FA1473A26D15602E20B46024ABCD68E04B00690EB5AA9AFBE0D7642E9E823"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/MapHeatScale.gd.uid",
+    "sha256": "F435E6D83B4D787AF43E1CAA1F8A58ECD153DF4A22093607A76607BE89B3C549"
+  },
+  {
+    "bytes": 1445,
+    "path": "GodotProject/scripts/MarketImpactSystem.gd",
+    "sha256": "218175A9A2352BC308301ACA3D5F5D2E8C70FFE1AD0168337B65B0C83E17F396"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/MarketImpactSystem.gd.uid",
+    "sha256": "578B229A8DE8398FF12DF88B8F66CE8F4734BBA77F10421F06F963AB8DD7444F"
+  },
+  {
+    "bytes": 6233,
+    "path": "GodotProject/scripts/ModalManager.gd",
+    "sha256": "487E3E287C883976E59D69A3760033F220F0102BAD272D952442D915B0F770BD"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/ModalManager.gd.uid",
+    "sha256": "EB563571D598F2DDFB62546BE8C2D3FB6B7492BB79D520D0EA301A2B9C8AFDF2"
+  },
+  {
+    "bytes": 11388,
+    "path": "GodotProject/scripts/ModeSelect.gd",
+    "sha256": "9428CC287A428BA1222DC57F4BEF51B343F4E1C5DCBDBF5E8E689B380425276B"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/ModeSelect.gd.uid",
+    "sha256": "916B855CFC0D7EE39D2470D8337CB43E2095AC49D17EB661C0A9527846DDFF73"
+  },
+  {
+    "bytes": 3974,
+    "path": "GodotProject/scripts/ModeTile.gd",
+    "sha256": "D27EBBA8FAFD010924551F4CB30CB05DDA33FF7134384C6D4C727DB03C0A8425"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/ModeTile.gd.uid",
+    "sha256": "BE313D27927D52DCFEE560BE34A9297DFBCED821855E49F40BCF89A1381EECD7"
+  },
+  {
+    "bytes": 1198,
+    "path": "GodotProject/scripts/MusicAlbumEmblem.gd",
+    "sha256": "1B61894FA7FF777048759014B5F171F6540A8B7E4AB414E0C7986F18BA3ED6BD"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/MusicAlbumEmblem.gd.uid",
+    "sha256": "2BB5A2E2870F667253D805FA509281FB08D0CD7053977BACC38E83EFB2281EB3"
+  },
+  {
+    "bytes": 1065,
+    "path": "GodotProject/scripts/MusicMascotButton.gd",
+    "sha256": "A1DFAF7134AD53EA8201D13F6BC42B7AB65BE42ED8C7787B1DC1C6C84D78D7F5"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/MusicMascotButton.gd.uid",
+    "sha256": "19ABB103006C17AC28E9FDB1AF07B04CB3C4924377F2365D55D1E39EAE30BE34"
+  },
+  {
+    "bytes": 18109,
+    "path": "GodotProject/scripts/NewsCenter.gd",
+    "sha256": "327F6682AB9BF7D69718E4F99348C9EC1B06FFE5AC91483B19CC84B943C56B06"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/NewsCenter.gd.uid",
+    "sha256": "2DB660250B7FB254951F34F9CF12FE5E558780453FBE63B1394C23B4B6035023"
+  },
+  {
+    "bytes": 2551,
+    "path": "GodotProject/scripts/NewspaperCityPulse.gd",
+    "sha256": "3620B897444C59E7478C61525DC4B000CDA220A4D30AD6D4C24A28292DF2C848"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/NewspaperCityPulse.gd.uid",
+    "sha256": "7C27A0CC72D6380653F97498B4E836056D7438E35BD2D223A2B7214B95FEDBBF"
+  },
+  {
+    "bytes": 10369,
+    "path": "GodotProject/scripts/NewsSystem.gd",
+    "sha256": "EBD7A939724EF813E1637194FDCF9AE40E8A17E30F7167342CA0A69EAD65B440"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/NewsSystem.gd.uid",
+    "sha256": "02A9AB3872094142036A5016B96AEA1E2EB5E2B72E5ACA95C721A210E4F73A73"
+  },
+  {
+    "bytes": 4779,
+    "path": "GodotProject/scripts/OpeningCard.gd",
+    "sha256": "3D672D4537A921EA6A22FFE5E0CADDF090AEB9E039C8BB18916DB8209FBD1DC1"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/OpeningCard.gd.uid",
+    "sha256": "345201DB2EEC3AEFEB39CE8BC4888D3A2287805E9A41C41602BE630C90C0B94A"
+  },
+  {
+    "bytes": 1727,
+    "path": "GodotProject/scripts/OpeningCardOffer.gd",
+    "sha256": "9CFDEFAE900300F0776938841FA789E91F000BCBF957132E49BFA8822A1C7FE8"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/OpeningCardOffer.gd.uid",
+    "sha256": "D1D02EA8B617BEC186BEA9A2A367AC8F472627409A3BE4ECA9293D7C7D0D40F1"
+  },
+  {
+    "bytes": 14931,
+    "path": "GodotProject/scripts/OperatingDashboard.gd",
+    "sha256": "A4D8845869523E3602F492DC91C89C6DAFAAFDC91242B26EDFF5F2434F21E8DC"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/OperatingDashboard.gd.uid",
+    "sha256": "FB6F9A8EBF2A035DA7E36FB6BCF63537651656C663A31B4F5A51B1CD1A40DBD1"
+  },
+  {
+    "bytes": 2749,
+    "path": "GodotProject/scripts/OpportunityRadar.gd",
+    "sha256": "2CB32A24B058095510C35D29573B04FF434633BA38B49E6FDDA7BF6D67873D30"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/OpportunityRadar.gd.uid",
+    "sha256": "503E5C12CCE09AD44D4F0CC416E1F58AEB78B389E7ED772B44082917F9B9F45B"
+  },
+  {
+    "bytes": 14325,
+    "path": "GodotProject/scripts/PauseOverlay.gd",
+    "sha256": "DD59EE4FE21E41532BCEA32FDEACD84F6E0274A7F2BEA2EA1CC34C55713D224A"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/PauseOverlay.gd.uid",
+    "sha256": "81A56D3037ECC5B0F2D5FECCFF0BD14F347ABBE88323A59DEEE10BA1ED1E9DCA"
+  },
+  {
+    "bytes": 1454,
+    "path": "GodotProject/scripts/PlayerCompany.gd",
+    "sha256": "BF265BB94839BB904D2F609AE6D3B96E0FD88006854FD0304A1CAEEC8A69B14E"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/PlayerCompany.gd.uid",
+    "sha256": "FD865FC2B561CE54B4BAB85BD5FAD576309F1647D57758B13535FD11A1FBAFE1"
+  },
+  {
+    "bytes": 1152,
+    "path": "GodotProject/scripts/PremiumCityBackdrop.gd",
+    "sha256": "A75C934FD7D809437AEADAF25CC3332C9ADE2E511B97EADE4BEF3303AE9DBD11"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/PremiumCityBackdrop.gd.uid",
+    "sha256": "73CC1A4ACAD630576F29411570F4EA43B79CBA4D886A7EECDB28DD927B8C6C49"
+  },
+  {
+    "bytes": 3839,
+    "path": "GodotProject/scripts/PremiumSettlementBackdrop.gd",
+    "sha256": "7B97A52CAF4143E1CBB6EB8B65C0BB53F1E2238AB874044E25584DE06FA3715B"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/PremiumSettlementBackdrop.gd.uid",
+    "sha256": "1AB5C0082CEE83FC57E55C5C1A46C67D527F2B0E3F42FA94553B91EE98CB4067"
+  },
+  {
+    "bytes": 7527,
+    "path": "GodotProject/scripts/PremiumWorkspaceBackdrop.gd",
+    "sha256": "06BA867E9A85A2E2C0D1BA4EC7CC7E2A4AE2065DB24C6DF685A985208C55DB10"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/PremiumWorkspaceBackdrop.gd.uid",
+    "sha256": "E16437985B9710F3B9824ED1B1321C9BF0413C5BC33082FF2055CFF6078F0335"
+  },
+  {
+    "bytes": 10548,
+    "path": "GodotProject/scripts/RandomEventSystem.gd",
+    "sha256": "396796228380ADFDC05404442BB3E8A558F38F8DF8E4A72D5EA36C13EA7A63F5"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/RandomEventSystem.gd.uid",
+    "sha256": "83A7D059EDE69D39129A9282A1F04807BACD10CB8DA84BC099CC8F1A2C6CDFF1"
+  },
+  {
+    "bytes": 416,
+    "path": "GodotProject/scripts/RandomSource.gd",
+    "sha256": "C15823FF02290A2EBBF0604EE0488C06988E9FB3A32A0DE9E77810DB39414F59"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/RandomSource.gd.uid",
+    "sha256": "0535563594FBCC142210E8E4F6031337E70B92442CA345A6CB5A955392E41968"
+  },
+  {
+    "bytes": 5052,
+    "path": "GodotProject/scripts/RareCardRevealFX.gd",
+    "sha256": "BB538B8EC5DCD10E1DBA0EE2A5349FAE9E3A437AD0FD7CB00A1181EF9612CBB0"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/RareCardRevealFX.gd.uid",
+    "sha256": "6C3532D8D527BC73973B786B1218DA445A39715E96DF031B38EA7F337DE9ADA2"
+  },
+  {
+    "bytes": 9840,
+    "path": "GodotProject/scripts/RegionalEconomySystem.gd",
+    "sha256": "AA01E441A20EE63462078388B34A47E26838EDF428EE36AB474C7C1069A469AE"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/RegionalEconomySystem.gd.uid",
+    "sha256": "7AB07234E9451F9ADF8FE24D955946C487F4817A212EB665A7A3AC7931C37E79"
+  },
+  {
+    "bytes": 2049,
+    "path": "GodotProject/scripts/ReleaseSelfTest.gd",
+    "sha256": "A87F5C2C48B5281C8D6015DBE1EFC573B0438AFE0D9A7975B9BFC59B19F59C09"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/ReleaseSelfTest.gd.uid",
+    "sha256": "E50ACCDE61E270E2EC9837A798F603BB4CAA089207BD756E84D9BBAA85BD4F5C"
+  },
+  {
+    "bytes": 12015,
+    "path": "GodotProject/scripts/RiskDetailPanel.gd",
+    "sha256": "31060FFDED23397610B27F794C49A261BEBED5EE3291E3C85821B3D223A5B1E2"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/RiskDetailPanel.gd.uid",
+    "sha256": "0DF075035243D00A1534A9130372157D2850CFCCBF7B4180DADED15D2DB00F19"
+  },
+  {
+    "bytes": 13120,
+    "path": "GodotProject/scripts/RiskSystem.gd",
+    "sha256": "76D01F868D25B92146B88A5070C945ABF98CE5689F87E507A777CA77B6D81DC0"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/RiskSystem.gd.uid",
+    "sha256": "41F356D9B9354C4CEE273D262C5A5E8BF7CEAF977EC5724E3E4871AD4FC81527"
+  },
+  {
+    "bytes": 11698,
+    "path": "GodotProject/scripts/RoundCardDraftDialog.gd",
+    "sha256": "2EA1212E4337F6557787AFFA549AA8A09BBAC1A589177D6D952F24C60130A413"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/RoundCardDraftDialog.gd.uid",
+    "sha256": "07B2B198D4DCE07E87600142E5F3DCE51F73394DE08B2EBB96F7411C5FC79166"
+  },
+  {
+    "bytes": 3349,
+    "path": "GodotProject/scripts/RoundCashflowAudit.gd",
+    "sha256": "3C3BAFDA4FB1DBAEA23918CEA2C587BBADBD270F042F257EEA805B8AEC603F27"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/RoundCashflowAudit.gd.uid",
+    "sha256": "8D20F66180E76BDA5D5792D38EC0AFD96E1C30BC241C12ABF071D74FDCA755B8"
+  },
+  {
+    "bytes": 26417,
+    "path": "GodotProject/scripts/RoundDecisionDialog.gd",
+    "sha256": "6CCE322EF3B0EAE97208397AE3DD24B428AEAFA7FAB257F084586701ACA67998"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/RoundDecisionDialog.gd.uid",
+    "sha256": "C38D301B16C067EDDEDF2E4F80C566057271B3746F4DEB2D3969504FDA5B00ED"
+  },
+  {
+    "bytes": 13021,
+    "path": "GodotProject/scripts/RoundDecisionSystem.gd",
+    "sha256": "35A4422E1E3F1C1BF437D7BA2B8CF71EB90F9608278C0056AE5FA8436D1B19A9"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/RoundDecisionSystem.gd.uid",
+    "sha256": "43D584AC4E6128416D60F0DF5BF557452D197DAF4369EB7D13B9ACBBE2418678"
+  },
+  {
+    "bytes": 4723,
+    "path": "GodotProject/scripts/RoundReportBuilder.gd",
+    "sha256": "2C207BBF8B634CF3B110C44C06DC2A5BD72615A4C50379B4ACB56586346D9EFE"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/RoundReportBuilder.gd.uid",
+    "sha256": "D0B346A31BED8ABBFA37E0E6C57347318030A976D3B692D1E01A0DE924FD0A10"
+  },
+  {
+    "bytes": 11003,
+    "path": "GodotProject/scripts/SaveSlotDialog.gd",
+    "sha256": "0D5B0FCC1EA67553BAB5D1199E2E4CAF91450AEB56D9E60A6E975E6C4BD4E124"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/SaveSlotDialog.gd.uid",
+    "sha256": "698D372F8146DB11F831028F0E3730565CC2FC3E1136D5CF5E9C1E46BE723860"
+  },
+  {
+    "bytes": 10607,
+    "path": "GodotProject/scripts/SaveSlotService.gd",
+    "sha256": "A43428CABFAC06DE7FB41D1B35CEF088B987236CB74F233334F79E98B3A8187C"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/SaveSlotService.gd.uid",
+    "sha256": "172EB6E093F8C59F18D2598FB8E9650E7BAC9916F48200E527A5371D07928F2B"
+  },
+  {
+    "bytes": 14313,
+    "path": "GodotProject/scripts/SceneTransitionLayer.gd",
+    "sha256": "FE86D8369CA13846EC0E9D69AF929570D7A11AA319BE05F356982BADFAE96AEC"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/SceneTransitionLayer.gd.uid",
+    "sha256": "7DF1D38CFA1D425785CC380B6AD2A4DEFAA70304E671616019110C979F7D0B1D"
+  },
+  {
+    "bytes": 683,
+    "path": "GodotProject/scripts/SelectionState.gd",
+    "sha256": "13EFB900EFCC2B091D36B4B288DE346F23BDD498034F64CA94F17AC5189C2D58"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/SelectionState.gd.uid",
+    "sha256": "FEDA35F8128160E8A0712A8A6BE6B830534AD0EEB1F796B5E1FAF8B92B4D7690"
+  },
+  {
+    "bytes": 892,
+    "path": "GodotProject/scripts/SessionDurationEstimator.gd",
+    "sha256": "7BDE67619520589DEBAE5F9C5B4CE5467321DE0E12FE68EFE89348D652C6BF86"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/SessionDurationEstimator.gd.uid",
+    "sha256": "F86379ACD1DBF53BEDEDAB573FD70E131F9CC2762AB1D8E3D457C042CD0E3530"
+  },
+  {
+    "bytes": 7653,
+    "path": "GodotProject/scripts/StartupDueDiligenceDialog.gd",
+    "sha256": "EA8C1F7EE4FA6C874D59EA700CF710FE8D5B3B6173C6BF8D02CC9B5ADDB7F3ED"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/StartupDueDiligenceDialog.gd.uid",
+    "sha256": "988DD6FC44551644C23EC85CFE789441B2217DEA1105D9FFBB9D5B078ECC19D0"
+  },
+  {
+    "bytes": 14295,
+    "path": "GodotProject/scripts/StartupInvestmentSystem.gd",
+    "sha256": "F872533AE8CDA1BEC65A50DB75B03A5E041841CD29F21A65EC8514675FBD1AEB"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/StartupInvestmentSystem.gd.uid",
+    "sha256": "E1B160654C6CBC938B6FB72D51281F4D51C1EBA50C5059302F337E674C4FE1D4"
+  },
+  {
+    "bytes": 9301,
+    "path": "GodotProject/scripts/StartupPitchEvent.gd",
+    "sha256": "E9A3828690891969F1CE894E19E8042A2AB9008CEA30775E63B181CF9978A246"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/StartupPitchEvent.gd.uid",
+    "sha256": "D0A7339006C31326942A85344B81EC32F7825ABD8A960E1116F22EBA7E0C5BFB"
+  },
+  {
+    "bytes": 4396,
+    "path": "GodotProject/scripts/StartupProjectCard.gd",
+    "sha256": "B5AA570AB380A9715CA88F30B68C6D2B2BEF8071B13F01B89F139D36DE6D5C16"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/StartupProjectCard.gd.uid",
+    "sha256": "892A074495C574A7905DAA112686F389AF95F5B0522E70CD2D0CE3AD70D82135"
+  },
+  {
+    "bytes": 3089,
+    "path": "GodotProject/scripts/StartupResultDialog.gd",
+    "sha256": "D0A3E84CCE5074FD6801C9528A951AD1FD0EC080135D8A004635D5EE0BD884DF"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/StartupResultDialog.gd.uid",
+    "sha256": "9DD9F7F7719671D60C77F929BF7A4D520E2C9450B9A232422B3346D9B73E6FED"
+  },
+  {
+    "bytes": 1380,
+    "path": "GodotProject/scripts/StockAssetRegistry.gd",
+    "sha256": "8851F592AC80F56D42267B28F12E7D4F7E72245119CCF866782C996F8C442D7A"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/StockAssetRegistry.gd.uid",
+    "sha256": "F837D1C15FF51D5CAF8D266C7448AC94191D1B60900A32A115D97CCBA388C234"
+  },
+  {
+    "bytes": 5686,
+    "path": "GodotProject/scripts/StockChart.gd",
+    "sha256": "288B1B7F1AA404D5A2D44AADD4CA8B2B53835BC51855CBBD7DECA578FAFA25C0"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/StockChart.gd.uid",
+    "sha256": "60B2B9E21B7DC4781D811D026F713EAD4127A716D9AEEB4A0A4FF182DECD7E5D"
+  },
+  {
+    "bytes": 17150,
+    "path": "GodotProject/scripts/StockMarket.gd",
+    "sha256": "0434951511E7A57EA93FF16016B8721AAD87BE922172B50CBED6A422FA87389D"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/StockMarket.gd.uid",
+    "sha256": "30490EB933248EFFCA8C308D1456905DFD75B41BD7E7BF6A64EF367D1C327FA4"
+  },
+  {
+    "bytes": 6512,
+    "path": "GodotProject/scripts/StockSuspensionSystem.gd",
+    "sha256": "D1A9812BDB88D9CC0095A6CA08E43EB3BE2FEAD845DBE0025777015599DA0CD3"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/StockSuspensionSystem.gd.uid",
+    "sha256": "4C2B5CF6C419B0AA849D3920371C23D6C8FF0C3499E9D46DA6D96EBA410229C6"
+  },
+  {
+    "bytes": 14162,
+    "path": "GodotProject/scripts/StockSystem.gd",
+    "sha256": "893125D9EA39BC4CE457584218CF0B9E2E5AEEF32B8201ED7E660C35FBAD67E1"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/StockSystem.gd.uid",
+    "sha256": "51BE1266D54BC0724C4B06B8A57D4D9C86DDAF9C13ADF3CBB9A687889D464BCD"
+  },
+  {
+    "bytes": 2822,
+    "path": "GodotProject/scripts/TalentCardBack.gd",
+    "sha256": "38A4499870D4BDFF87BCCCC85403AC08915DEAF21B608DED4E8E166FA592AF8A"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/TalentCardBack.gd.uid",
+    "sha256": "B733094ED21FAEFAC5F5335ECD4A4465542DA7F625C30C433FED95059C9BF2C8"
+  },
+  {
+    "bytes": 9537,
+    "path": "GodotProject/scripts/TalentCardView.gd",
+    "sha256": "0951AF6D0AE8C9541813A5B819F9910895D2808DAC355FE1363C648024D31103"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/TalentCardView.gd.uid",
+    "sha256": "C9E0C99A5184039E34A27B238A79D40FC304EDB6EDBEE036AE75868334316B07"
+  },
+  {
+    "bytes": 1146,
+    "path": "GodotProject/scripts/TalentExecutiveBackdrop.gd",
+    "sha256": "625F5C630843D23763EF12F56DEFA89490AA7AFD53CC292D956E78B0FF8EBF3C"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/TalentExecutiveBackdrop.gd.uid",
+    "sha256": "707AF1B74C487E90770CFD500FB4D7972390237C111683650511861D0435B0ED"
+  },
+  {
+    "bytes": 22848,
+    "path": "GodotProject/scripts/TalentMarket.gd",
+    "sha256": "E4C743924B8C95E66F326CF62B20315408B72D15E86803759D45DC6838FCD1F7"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/TalentMarket.gd.uid",
+    "sha256": "91A1581BA06AFE925C7F24E837EAA5EFADEF9626350698F9BA1B664818266E8F"
+  },
+  {
+    "bytes": 1448,
+    "path": "GodotProject/scripts/TalentRedGlow.gd",
+    "sha256": "092F37B4FC227F6279247CE64FBD833B02A35A8787EC98F6A97B2E5E9294BE0A"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/TalentRedGlow.gd.uid",
+    "sha256": "A061CF27E8F7348DE4B4C9E4347513FBF77781D9F44D7F4216F30C63CF275120"
+  },
+  {
+    "bytes": 2364,
+    "path": "GodotProject/scripts/TalentSummonButton.gd",
+    "sha256": "458E58D10645E6ACCA22263C475C3602B96457D7D2A3A57D18655F2D13A202F0"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/TalentSummonButton.gd.uid",
+    "sha256": "91CC28D3A1EAAED406AF75FF02EA4CB75D183D4CD0D6B3B0EFC9AB537E33A309"
+  },
+  {
+    "bytes": 2664,
+    "path": "GodotProject/scripts/TalentSummonStage.gd",
+    "sha256": "C3A6A8A5A5C2CCD2D3A1CE5D043E548C23479C9CA9FD672D50BACC5BEFE7C6A8"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/TalentSummonStage.gd.uid",
+    "sha256": "4BBEF95CB57CAC947536DB9FB2BAF833F27023A391599F6DC4E87AB79A06D483"
+  },
+  {
+    "bytes": 18752,
+    "path": "GodotProject/scripts/TalentSystem.gd",
+    "sha256": "30AA2BB1BA91B410E7C9D01BA1F11E81B59A4BFC7C21BA00E0A8C080EF787B83"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/TalentSystem.gd.uid",
+    "sha256": "BD21C328C23F29BA68828A3B550BD7FF9F3F1BF52732383FED8AC4BB42C8C2E4"
+  },
+  {
+    "bytes": 3938,
+    "path": "GodotProject/scripts/TargetChoiceCard.gd",
+    "sha256": "7EC617B59C38C7C75B1AB0EEC4F5070B8503731A554CDA440C04BFAD1B04DD62"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/TargetChoiceCard.gd.uid",
+    "sha256": "D6A4C9E5C3B2615823D00118D1B4205248C3590F58961D56DDA318B49ED7AF73"
+  },
+  {
+    "bytes": 4686,
+    "path": "GodotProject/scripts/TimedEffectSystem.gd",
+    "sha256": "34B1A3F17EDBC6D0AA3A175C0BEBBC3221901B9D2EA773170779B760DFC812BD"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/TimedEffectSystem.gd.uid",
+    "sha256": "9464A1619330A9E523F79A21B715A35EB2E5A2AA0A25F03B611FB75C9DEFAD5B"
+  },
+  {
+    "bytes": 6432,
+    "path": "GodotProject/scripts/TrafficSystem.gd",
+    "sha256": "00BA24D7BC035D2B32A1876856F4C19BC1238DAA0EFE8725B5802FAF65DFFEC7"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/TrafficSystem.gd.uid",
+    "sha256": "55636596F6DA53790723F97300832B7D741B7C15E3D0D48EE1C5B69D58F1D781"
+  },
+  {
+    "bytes": 3242,
+    "path": "GodotProject/scripts/TurnDirector.gd",
+    "sha256": "41407EE0FB6D6CE601AED773D9774967A60BFCFDF7DBF726DE0294C88873125D"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/TurnDirector.gd.uid",
+    "sha256": "FE5725AD77B4F92AF007AD7982D405B9E5DBC164C807486B14EBD10FD9BEF7DE"
+  },
+  {
+    "bytes": 24202,
+    "path": "GodotProject/scripts/TurnSettlement.gd",
+    "sha256": "BF22DF9B862E86A4FC3F6ACA4883879869737C5B7785081E2D33CDA183C1FAA7"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/TurnSettlement.gd.uid",
+    "sha256": "9497F95E67DCD5AF9072B84E7E6E76C88F753F02B34E17B09E35D2B34D713222"
+  },
+  {
+    "bytes": 32316,
+    "path": "GodotProject/scripts/TurnSummary.gd",
+    "sha256": "29F99303FFEF54A70223C752F0A3B3457A1F0B3B67B329BD8311AB646EBB5FFD"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/TurnSummary.gd.uid",
+    "sha256": "6C8ED137B83E70863DFC3F92460778D1923C099319BBF6E1B2C3020DA36D60EF"
+  },
+  {
+    "bytes": 37319,
+    "path": "GodotProject/scripts/TutorialDirector.gd",
+    "sha256": "B104A7C9353CD06F5F15BE88CB598D48B554A6FB658079DE420CB34EB5102DA2"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/TutorialDirector.gd.uid",
+    "sha256": "453BB39C5837E8AEE329FF2FFDB3E6BCEF4F86C4747DB0E86EE7E11DBD0DD876"
+  },
+  {
+    "bytes": 6531,
+    "path": "GodotProject/scripts/TutorialFlowState.gd",
+    "sha256": "24A9DB9FD8623AB01083D91AC69FB22DB9E93B0821FE68E5B5B1A9285C5EEA27"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/TutorialFlowState.gd.uid",
+    "sha256": "26012761BD6D05DCBA54CD9A43A32461A32BAF3DE49E43F1CFCB0E4CFCD74474"
+  },
+  {
+    "bytes": 11368,
+    "path": "GodotProject/scripts/TutorialSandbox.gd",
+    "sha256": "99508C0E1C0BC225A07A102C303374814CF22C0AF3683FC011923946A88D1501"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/TutorialSandbox.gd.uid",
+    "sha256": "F241CF454F4668A67168C37ECD1943C39F5994542155659771A630DC37B2C5E1"
+  },
+  {
+    "bytes": 470,
+    "path": "GodotProject/scripts/UIManager.gd",
+    "sha256": "8379C3ECB379D01D3231D3EAB60F0C2CBBFC6F286907B090C8ACD87A180AB313"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/UIManager.gd.uid",
+    "sha256": "C4EA0001A13A1D227184A01231D7E8ECDB5434CCF2189BDF5C60F3A475F08909"
+  },
+  {
+    "bytes": 2742,
+    "path": "GodotProject/scripts/UIStyles.gd",
+    "sha256": "C6C79B11122926841E44923D55899AC274F8E2B28FEA2F48477471D722544CEA"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/UIStyles.gd.uid",
+    "sha256": "B44FDB0C86C12DCE47328F242D9E9F3C1B7B7F041D89388919825ED5FB770715"
+  },
+  {
+    "bytes": 1640,
+    "path": "GodotProject/scripts/V7Motion.gd",
+    "sha256": "82437140BD512DFBC455A17A97C2FC353150D5F866F5B746B7C18FFC5FB3B9EF"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/V7Motion.gd.uid",
+    "sha256": "1AF62BDA368AC7CAE57089EA22ACF663696F9B6E21CD9656FA91F5438F93E744"
+  },
+  {
+    "bytes": 1240,
+    "path": "GodotProject/scripts/V7ScreenDecorator.gd",
+    "sha256": "346107B558DBA457805A5D0ECF2E10F5CDCC824C08D89ACBA4454097BAEE34A0"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/V7ScreenDecorator.gd.uid",
+    "sha256": "D3EA6EAB7C20E2EC82020C21AAEFFACB57781FE76EC3F02BF4B697A0D6FA5977"
+  },
+  {
+    "bytes": 5006,
+    "path": "GodotProject/scripts/V7Theme.gd",
+    "sha256": "6AABFD18675D41A3F605493E002145593B76BF5ECC9EF5F9980C40559CB02CE2"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/V7Theme.gd.uid",
+    "sha256": "68985A8B94BF60604BBA804BFDCC7103C1EDA57940BF487D2E2D5988C42E7CFF"
+  },
+  {
+    "bytes": 9493,
+    "path": "GodotProject/scripts/VoluntaryLiquidationDialog.gd",
+    "sha256": "E65EDA1530F0E6DF6662A3A41CDD43379E924D4E075FF6CC946AA7A4C9837839"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/scripts/VoluntaryLiquidationDialog.gd.uid",
+    "sha256": "DAF40CFE04337AD8D10C4209B4BAB87958C62066B1AF75156601677483F5A2DD"
+  },
+  {
+    "bytes": 1980,
+    "path": "GodotProject/scripts/WealthGauge.gd",
+    "sha256": "141A629BA71E34DA380B6BE2754487ABEF5AEF320EAA2684BC3614F6334FE6B9"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/WealthGauge.gd.uid",
+    "sha256": "7ADC4E941BFEE6E0FF70A9B7EDA197C939B411FE9D70161E100A4D02037C3C75"
+  },
+  {
+    "bytes": 6667,
+    "path": "GodotProject/scripts/WestBankEligibilityDialog.gd",
+    "sha256": "43DF6CF178E33942C7B492BE5B08C339E04AA164AA9477206DB4738A287C1363"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/WestBankEligibilityDialog.gd.uid",
+    "sha256": "B5A32689953BE7A041E9D7EE4944FE9B468424A583506AD258D25A84941B9813"
+  },
+  {
+    "bytes": 11924,
+    "path": "GodotProject/scripts/WestBankInstitutionDialog.gd",
+    "sha256": "2BBE3080B5483A832AC60AAD3CD50DD56B61A7D6CA4BA311B0FF7EA9028811CC"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/WestBankInstitutionDialog.gd.uid",
+    "sha256": "1C3194076C71B3C750DA994446994A5C51052FE4BCD8464F29840D80CA588B75"
+  },
+  {
+    "bytes": 9269,
+    "path": "GodotProject/scripts/WestBankInstitutionSystem.gd",
+    "sha256": "24D9892D0865725865B303A95E7C3543602B5337DE7A59AA9573A957F11E95C4"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/WestBankInstitutionSystem.gd.uid",
+    "sha256": "F00AD62307E566597FCDDB42703B833A5F9BAAA7B5B6064ED35484AC11860E0F"
+  },
+  {
+    "bytes": 2019,
+    "path": "GodotProject/scripts/WestBankLandmarkAssets.gd",
+    "sha256": "AD507CEE90005D5142B2A1BCBF4FEE432CEB9594FAC90C5DE2EB9CC27854DC8B"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/scripts/WestBankLandmarkAssets.gd.uid",
+    "sha256": "08CF6991D784B0D4AFC30ABBBAE8D70BD4A9653CF28E00700621C46065E8A275"
+  },
+  {
+    "bytes": 5766,
+    "path": "GodotProject/CoreScripts/Managers/VisualAssetManager.gd",
+    "sha256": "129F7CFEFC757F8E0C07938561E9979351265B9665E168FF702279BC4593CB94"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/CoreScripts/Managers/VisualAssetManager.gd.uid",
+    "sha256": "BC5DC0241D89C00FCE45D7041CB8EB42B1752EF6A26306E9C6A419A4D0FD61DF"
+  },
+  {
+    "bytes": 2280,
+    "path": "GodotProject/CoreScripts/UI/GameUIFactory.gd",
+    "sha256": "FDABE970E7022F891858BD977FFB4F1FAE1B80811C5A8442E187E8AD8297F933"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/CoreScripts/UI/GameUIFactory.gd.uid",
+    "sha256": "942A528545C647436505067E8E54BD03ACE1142E78D3C70D2227B5DC56B795C0"
+  },
+  {
+    "bytes": 7258,
+    "path": "GodotProject/scenes/AuctionPanel.tscn",
+    "sha256": "B7F39CEAF84FA777B89967D8E1F85329C2C53534E9ED75DFB3D8D7C43E84D31A"
+  },
+  {
+    "bytes": 2194,
+    "path": "GodotProject/scenes/BankPanel.tscn",
+    "sha256": "E23733BD43B02AFEF42407DA5258627A004D5C87FC4AFC7C76D4FE20A12D98F4"
+  },
+  {
+    "bytes": 1466,
+    "path": "GodotProject/scenes/BusinessBuildPanel.tscn",
+    "sha256": "DFCF15A3D9CA49ABDA61B5D20920CD685E7461E521CA50B6F52F4C5754146393"
+  },
+  {
+    "bytes": 296,
+    "path": "GodotProject/scenes/CapitalMarket.tscn",
+    "sha256": "99F10EADAA1F4260BB4244156F99655FABF012621AB5FDD004997FAC6CD74BA6"
+  },
+  {
+    "bytes": 340,
+    "path": "GodotProject/scenes/CardCollectionGallery.tscn",
+    "sha256": "09E172B4A93B340868A97AA4DB4A2BFD8B8A5EA48340F280F7B2C19E8EC8E5A9"
+  },
+  {
+    "bytes": 2172,
+    "path": "GodotProject/scenes/CardDrawScene.tscn",
+    "sha256": "AC9BA37E698369D14C7859E2B8DD6EA24F151600B16642246DE9FBAEB863954A"
+  },
+  {
+    "bytes": 4447,
+    "path": "GodotProject/scenes/CardHandPanel.tscn",
+    "sha256": "832DF93B63927055BFED551787AD434DA06BDE1C1D50CD0C067EB4D3461825E5"
+  },
+  {
+    "bytes": 201,
+    "path": "GodotProject/scenes/CardView.tscn",
+    "sha256": "3877D571F45E28A2F806E4D5B4F4FFAA789178354A53F55855450BFAF665B9C3"
+  },
+  {
+    "bytes": 8708,
+    "path": "GodotProject/scenes/CityMap.tscn",
+    "sha256": "3A69A867DE424D8F195680FFB15F2D373CE0FAB5618521E6319F04BC741D2A7C"
+  },
+  {
+    "bytes": 242,
+    "path": "GodotProject/scenes/CommercialCityMap.tscn",
+    "sha256": "2E62FA84A475835D8158BF42C5603E3101EB3B7424428B622F8AE761D5726955"
+  },
+  {
+    "bytes": 220,
+    "path": "GodotProject/scenes/CommercialLandPlot.tscn",
+    "sha256": "13C620C39D781E39899C9711D1354A790722C4CAF8C5D11154C6637C701337AD"
+  },
+  {
+    "bytes": 7228,
+    "path": "GodotProject/scenes/CompanySelect.tscn",
+    "sha256": "407FCDF47D8AF1A19022E42DA91BB121A0668882FFF90A07ABCECB6C87727C33"
+  },
+  {
+    "bytes": 2528,
+    "path": "GodotProject/scenes/FinalResult.tscn",
+    "sha256": "3C039A605D4BAC24A3FB5886EF70B3B8FCD7E15E6E60E69B1EA65518A6953912"
+  },
+  {
+    "bytes": 1082,
+    "path": "GodotProject/scenes/LandDetailPanel.tscn",
+    "sha256": "C4CAB22BA38D587401C47C2723F0D60CDE9884767FBB712DD807D10C510BC972"
+  },
+  {
+    "bytes": 200,
+    "path": "GodotProject/scenes/LandTile.tscn",
+    "sha256": "CC69D0D48C86842B9379365E07FB05CE01ECF7B679E51AC60C8F3C9E19DD9F15"
+  },
+  {
+    "bytes": 9222,
+    "path": "GodotProject/scenes/MainMenu.tscn",
+    "sha256": "0D663E6CA50C228B5F95A7A695D0B21D2A2B9F5AA14E010D94C2386A768E9216"
+  },
+  {
+    "bytes": 5956,
+    "path": "GodotProject/scenes/ModeSelect.tscn",
+    "sha256": "BEE33F7A3077CF676089237EA1854839D6BFAF04405CBD71D5EFF88F2016DD32"
+  },
+  {
+    "bytes": 559,
+    "path": "GodotProject/scenes/NewsCenter.tscn",
+    "sha256": "29E2904AB7E6444C22A300DCF78D06589D69CA07704D55DE355056352E75B18C"
+  },
+  {
+    "bytes": 3021,
+    "path": "GodotProject/scenes/StartupPitchEvent.tscn",
+    "sha256": "A588EF0E64F1E2BAF3A4FA3667B0AE6C4131E7C30D6347D8D5031E0902204D70"
+  },
+  {
+    "bytes": 6824,
+    "path": "GodotProject/scenes/StockMarket.tscn",
+    "sha256": "A891F7DD5A7CA1E96244E06E4BAD3C2743A311BDEB9EC44AB2849E0D57F63579"
+  },
+  {
+    "bytes": 2026,
+    "path": "GodotProject/scenes/TalentCardView.tscn",
+    "sha256": "469CD8918BD7FC6318C696F22721E35379C2262E82A7F1A57A4094535204C0C2"
+  },
+  {
+    "bytes": 6679,
+    "path": "GodotProject/scenes/TalentMarket.tscn",
+    "sha256": "224196E55A1D2F4324657A847B9A1B157D975DBBA64F2661CB0C2D4D6CAAA82A"
+  },
+  {
+    "bytes": 3624,
+    "path": "GodotProject/scenes/TurnSummary.tscn",
+    "sha256": "0FF54D0D135F8F47F131641C26F4A9B823803955156B168D14F8DE6F0CCEAF7C"
+  },
+  {
+    "bytes": 174,
+    "path": "GodotProject/scenes/UI/CardView.tscn",
+    "sha256": "3CF7DF5DAF42CD7B01B3416DC67EB706367B7DF895ECCB4C9BE92BA32AB63279"
+  },
+  {
+    "bytes": 187,
+    "path": "GodotProject/scenes/UI/TalentCardView.tscn",
+    "sha256": "B5AEF88F010A089522F8F1C86890A05C8ED292EF23CDFCAC9882306635092272"
+  },
+  {
+    "bytes": 266,
+    "path": "GodotProject/scenes/VisualFallbacks/Buildings/FallbackCommercial.tscn",
+    "sha256": "01D41844D31169C3E71A13BAA0FC4817A0F3CA9C1CAB760AA1E7A34500B4CE5B"
+  },
+  {
+    "bytes": 274,
+    "path": "GodotProject/scenes/VisualFallbacks/Buildings/FallbackEducation.tscn",
+    "sha256": "1B180FB3F865A54F2867916223E8065991BC06D415A184ECE77281E8A3BF5EE4"
+  },
+  {
+    "bytes": 269,
+    "path": "GodotProject/scenes/VisualFallbacks/Buildings/FallbackEntertainment.tscn",
+    "sha256": "18C1F73F078CA7B0795291D01B1B4EBFB8CBBE1EE5F4B7E79AE61A4E453C0047"
+  },
+  {
+    "bytes": 278,
+    "path": "GodotProject/scenes/VisualFallbacks/Buildings/FallbackFactory.tscn",
+    "sha256": "6454590AAAD726087E2E2BF7913336EDC715D0151261B63C687F07DBC88EBB51"
+  },
+  {
+    "bytes": 271,
+    "path": "GodotProject/scenes/VisualFallbacks/Buildings/FallbackFinance.tscn",
+    "sha256": "64302B81175BC7479209BA295D22C4D62D0B464E300A37B6EA82AC7582E425BF"
+  },
+  {
+    "bytes": 278,
+    "path": "GodotProject/scenes/VisualFallbacks/Buildings/FallbackLogistics.tscn",
+    "sha256": "BB2BD9AADB7B57FB290FAF9B8A9601ADEADFC2AC4BEF997A13F3CA70A139A5E7"
+  },
+  {
+    "bytes": 266,
+    "path": "GodotProject/scenes/VisualFallbacks/Buildings/FallbackMedical.tscn",
+    "sha256": "2FE082DFDA8519C93B85B68D340751AF0ACC35EB632EEC800A04FDBEA21B99B7"
+  },
+  {
+    "bytes": 269,
+    "path": "GodotProject/scenes/VisualFallbacks/Buildings/FallbackRestaurant.tscn",
+    "sha256": "1E17310877AFED40FBF1A099CD46305CF1FCDEE6A93CCCCF7ABA4F9C8F339BC0"
+  },
+  {
+    "bytes": 267,
+    "path": "GodotProject/scenes/VisualFallbacks/Buildings/FallbackRetail.tscn",
+    "sha256": "5B633C9FFA74348556142114B9AFCAC24E734318B81269C9CBDD64763CC3C7C8"
+  },
+  {
+    "bytes": 267,
+    "path": "GodotProject/scenes/VisualFallbacks/Buildings/FallbackTech.tscn",
+    "sha256": "2276ABD47FF47F2794C910ED058096E22BA8D879C063F62F3F8B5D51CF39BA9F"
+  },
+  {
+    "bytes": 1303,
+    "path": "GodotProject/Themes/FallbackGameTheme.tres",
+    "sha256": "70E48946CDD29E5468485F3405AC25DA670C87DD5E40E5F6139ADD5B32271C51"
+  },
+  {
+    "bytes": 73,
+    "path": "GodotProject/Themes/GameTheme.tres",
+    "sha256": "400E4065ADD59BC1E76B60A17538E84071A7797F7DCEA82CB010648A02674419"
+  },
+  {
+    "bytes": 209,
+    "path": "GodotProject/Themes/V9141BodyFont.tres",
+    "sha256": "495DF373B4765420C35126859F1D447A687143802393E2D09D02DAC17395BF07"
+  },
+  {
+    "bytes": 209,
+    "path": "GodotProject/Themes/V9141BodyMediumFont.tres",
+    "sha256": "045423E21CAFAA2794ACFCE3ED1453488E0C9DC86EA8239F7F1DEFDDD7880A48"
+  },
+  {
+    "bytes": 205,
+    "path": "GodotProject/Themes/V9141DisplayFont.tres",
+    "sha256": "5B6DA960A89FBC4C54539F7C3B15F005D9644450D6A680719CB525E537B61F79"
+  },
+  {
+    "bytes": 559,
+    "path": "GodotProject/data/balance.json",
+    "sha256": "C466932F25A84D693BB0139F41E8D8000DDF4373B892178BD57A98C2FA0E154E"
+  },
+  {
+    "bytes": 4723,
+    "path": "GodotProject/data/business_types.json",
+    "sha256": "B15E0DBD306DAAE5C9E9E3A83D89BA0A6BC053DD70B93E0CBA1C327A30BF1CA7"
+  },
+  {
+    "bytes": 54087,
+    "path": "GodotProject/data/cards.json",
+    "sha256": "D4516F04264D91B4096F710BE854243F8EE2740A26432CEB28F2F80EA7FEE315"
+  },
+  {
+    "bytes": 6458,
+    "path": "GodotProject/data/city_mobility_routes.json",
+    "sha256": "10E316A3C61FF76045B9440AD7FCF140B0A0100F8DB02E1D01CA65DAF25BDB9B"
+  },
+  {
+    "bytes": 5256,
+    "path": "GodotProject/data/city_urban_fabric_v918.json",
+    "sha256": "59EEFF5D90D0CEF3114B21D7F89B2B2F7641C49A0BF2A6C4052AA47F9758CEB1"
+  },
+  {
+    "bytes": 582,
+    "path": "GodotProject/data/government_events.json",
+    "sha256": "92F3BEE2E0B0EBB554A307EF27F9841B8BA394258C4340518522856C79862AAE"
+  },
+  {
+    "bytes": 10137,
+    "path": "GodotProject/data/investment_companies.json",
+    "sha256": "61B0A8D1BCD5286CFAC490A5AA072121236735D28C3E7E6D1BF7F5CEF93CAA27"
+  },
+  {
+    "bytes": 17059,
+    "path": "GodotProject/data/land_tiles.json",
+    "sha256": "B7279B4C3F825C6610A65D62CC99F5C641D7387707B194692A9D4C5039BFE55A"
+  },
+  {
+    "bytes": 4082,
+    "path": "GodotProject/data/news_events.json",
+    "sha256": "2CB7A248B5C246AA2F43C260E23FE2F100669BAE2DD70D7BE030E5A15E181B4D"
+  },
+  {
+    "bytes": 5395,
+    "path": "GodotProject/data/random_events.json",
+    "sha256": "93E0D13D633C1C528AD88AC1E2A19934119D919E61DBB2D18C82C51E13599685"
+  },
+  {
+    "bytes": 3862,
+    "path": "GodotProject/data/startup_projects.json",
+    "sha256": "788DD87BFF95A932A1455D3F4E0F610E9B48A9313F4FAD2F4D74158EF0B1B572"
+  },
+  {
+    "bytes": 744,
+    "path": "GodotProject/data/stocks.json",
+    "sha256": "6CC23A13A593BDD6BFB497DAEDAEEE8517C388A483A1C188F798070F0B3FCB45"
+  },
+  {
+    "bytes": 2502,
+    "path": "GodotProject/data/talents.json",
+    "sha256": "8EA6F1702B9CE13EBCEEEE97A09B5B09DAF906905AFE453E355B3C52D35624D2"
+  },
+  {
+    "bytes": 830,
+    "path": "GodotProject/data/traffic_routes.json",
+    "sha256": "595944F1089FC2DABBEBE427554016E459301B22226653FAE0D087116474D6A5"
+  },
+  {
+    "bytes": 350,
+    "path": "GodotProject/data/visual_maps/audio_map.json",
+    "sha256": "2FF6F3331945747A9F0831729E37FABEF1F1184A19B3C670F92D5C9E560E0B3F"
+  },
+  {
+    "bytes": 3927,
+    "path": "GodotProject/data/visual_maps/building_visual_map.json",
+    "sha256": "43743FDA79A72B8BA9EFA67E74C2A8207F87CCA0C149F9DC630531CC02395788"
+  },
+  {
+    "bytes": 1715,
+    "path": "GodotProject/data/visual_maps/card_visual_map.json",
+    "sha256": "B3F674BB4F3EF17E8CA18726AC5C800223D5E2B826E41E08EC894EC7E65902F5"
+  },
+  {
+    "bytes": 1444,
+    "path": "GodotProject/data/visual_maps/icon_map.json",
+    "sha256": "A51BA493B9941451277E9E7C27827AA863FFA49900E43C0716D5DA51D691E4CC"
+  },
+  {
+    "bytes": 658,
+    "path": "GodotProject/data/visual_maps/talent_portrait_map.json",
+    "sha256": "6ED3AF5E30B11FFBFBF4C05A884AFB4D8FC05F248B0EE9622BECCFE7CDF9CAF3"
+  },
+  {
+    "bytes": 460,
+    "path": "GodotProject/data/visual_maps/ui_skin_map.json",
+    "sha256": "10D623A98FCA6120BAD71936E34891898691380CB039F70978BAFABD8F5E1BAF"
+  },
+  {
+    "bytes": 6148,
+    "path": "GodotProject/tests/BlenderLandmarkIntegration.gd",
+    "sha256": "F1A46CB5AAA3EEA9DB61D9C36F9F9D348C07B864AAD5DA256721CB79087CC5B9"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/BlenderLandmarkIntegration.gd.uid",
+    "sha256": "B19111A453D3F85B007E03EEC4B8A169C6B279E339FDFCB197F5DC7CF6EDF179"
+  },
+  {
+    "bytes": 199,
+    "path": "GodotProject/tests/BlenderLandmarkIntegration.tscn",
+    "sha256": "F4E683DB88ACBE4930FC755BF76080A7C132D26E29D97BAD2CE397C8F0D6B766"
+  },
+  {
+    "bytes": 1847,
+    "path": "GodotProject/tests/ConstructionDeadlineRegressionTest.gd",
+    "sha256": "E3F65761E60082693AD7460D67576C6BE5A0EBFFEAB22171164E5A3C005519B7"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/tests/ConstructionDeadlineRegressionTest.gd.uid",
+    "sha256": "43897EB1334BBB75934EDB023E27BE6FF58896C5D9184A184F2C201F529654EA"
+  },
+  {
+    "bytes": 216,
+    "path": "GodotProject/tests/ConstructionDeadlineRegressionTest.tscn",
+    "sha256": "427407BC5F2F1EBDED916429D34A2A0CF26B86B0D705B61331625710709AE306"
+  },
+  {
+    "bytes": 935,
+    "path": "GodotProject/tests/CoreSmoke.gd",
+    "sha256": "4E00EF0FD5C65245D404963A30C64242E9C0D366B3D3872D7386CF76B472258A"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/tests/CoreSmoke.gd.uid",
+    "sha256": "C7FC6879E638BAAC8D2B5F8F3DB87FD6D927C08CBB294485643DDA1A61DFF9FA"
+  },
+  {
+    "bytes": 165,
+    "path": "GodotProject/tests/CoreSmoke.tscn",
+    "sha256": "AC301326F269D79ACC365617F75FABAA5FC670A23661701359C8ADE82C475CA1"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/InspectCarMaterials.gd.uid",
+    "sha256": "65D67F6E8D918C4BE9CA5CFC4A0103AC468A88EDE26288B7A86EEA67A4D8BB40"
+  },
+  {
+    "bytes": 3530,
+    "path": "GodotProject/tests/StartupNavigationRegressionTest.gd",
+    "sha256": "8357A19051DCCBF5E230456204038E33443E07ED674A0A5A4A6E3BF1C785BFE5"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/StartupNavigationRegressionTest.gd.uid",
+    "sha256": "CC6A7431834B2970086A7C7D0E83E5C8A792F681F51A943707966AAC8B188A52"
+  },
+  {
+    "bytes": 209,
+    "path": "GodotProject/tests/StartupNavigationRegressionTest.tscn",
+    "sha256": "43A8309E9302B38A8AD4B5EC78A4679F1C45638920AAD4FF5FD8AE68E7E549FE"
+  },
+  {
+    "bytes": 2007,
+    "path": "GodotProject/tests/V153AIFullFlowTest.gd",
+    "sha256": "9588B68223D191CB5D8A174BB58F3236CDE1E0A70FBB9FD94C7F0A52B08BAD31"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V153AIFullFlowTest.gd.uid",
+    "sha256": "B199DA660B9B69E0ADD39957523B1F5E7524838392E00B2881127CAA5C51CDD5"
+  },
+  {
+    "bytes": 183,
+    "path": "GodotProject/tests/V153AIFullFlowTest.tscn",
+    "sha256": "9927ECA96EF732D9BF2FC52FC9781A2D88601A1CF1CF855E4AE6252C250BC933"
+  },
+  {
+    "bytes": 6306,
+    "path": "GodotProject/tests/V153EndlessRegressionTest.gd",
+    "sha256": "4569A74B7911238D4E52939BB57AF8D8968B610EDA94C569BE26DBD56C113199"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V153EndlessRegressionTest.gd.uid",
+    "sha256": "DE2FF923CA1B18B16227B05EB56993276127126418F3A24C2D0CE684E299FEA0"
+  },
+  {
+    "bytes": 197,
+    "path": "GodotProject/tests/V153EndlessRegressionTest.tscn",
+    "sha256": "55409FFFD663C5E35646628E6D882B3E71FAEACBEFA2F371C115F3EAF8270F8E"
+  },
+  {
+    "bytes": 3267,
+    "path": "GodotProject/tests/V153ResolutionLayoutTest.gd",
+    "sha256": "5EBB7F5233BC0252785146443266F1680D863868E680A22CDB366DFA00B1EE7A"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V153ResolutionLayoutTest.gd.uid",
+    "sha256": "A56E644BFA0A2A10626826E80F9AB820277ED6A4097A8E1A3EE6F04FD73AB950"
+  },
+  {
+    "bytes": 195,
+    "path": "GodotProject/tests/V153ResolutionLayoutTest.tscn",
+    "sha256": "D88F5157AFD5AB5860C89CE15EBF8F683730F0C3B9DB843C7EE1C691A04F40A1"
+  },
+  {
+    "bytes": 6111,
+    "path": "GodotProject/tests/V153UISmoke.gd",
+    "sha256": "D46FE43CF1F4755C0E1893723118C3976E1F086FBC02E405C8B33BDE08BAE284"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V153UISmoke.gd.uid",
+    "sha256": "85EB63E60EA08B7386CB3420E99AF8DA27A6F70DA0ABE45BFEF3B480765ED60E"
+  },
+  {
+    "bytes": 169,
+    "path": "GodotProject/tests/V153UISmoke.tscn",
+    "sha256": "9BBB45596552D308746AF34C80AD482EB036F4AA543F650971254E5381B6EF72"
+  },
+  {
+    "bytes": 12451,
+    "path": "GodotProject/tests/V154CapitalMarketBalanceTest.gd",
+    "sha256": "5E899BF90F8CEA287E39EFA7A2839E589520889B29A715C272E352F83CAE0F3B"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V154CapitalMarketBalanceTest.gd.uid",
+    "sha256": "EBABD440197C183667D12FE2C3F114D84E0D96FBBB1269C6B7153823E36B1E4D"
+  },
+  {
+    "bytes": 203,
+    "path": "GodotProject/tests/V154CapitalMarketBalanceTest.tscn",
+    "sha256": "D042B394C5D31925CD5E02D26B57916D086B05742E3564061BEB75BA50673250"
+  },
+  {
+    "bytes": 4237,
+    "path": "GodotProject/tests/V154DebtRiskEnforcementTest.gd",
+    "sha256": "7DCF6D07A8A87A54841D4A5CE206DC40A8D3D07024D1F7C6E32D76673C1639CA"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V154DebtRiskEnforcementTest.gd.uid",
+    "sha256": "D5D94447437E49B8A6E5EB16BE47879816695B8AAC33448E316E651F6BA77128"
+  },
+  {
+    "bytes": 201,
+    "path": "GodotProject/tests/V154DebtRiskEnforcementTest.tscn",
+    "sha256": "8CE4ACA5673538D318FF18C2C8C5BE4DC4C9FC9974751223773F3F7E14E59636"
+  },
+  {
+    "bytes": 2979,
+    "path": "GodotProject/tests/V154EndlessCheatIsolationTest.gd",
+    "sha256": "39D236EC58D03ECD1522DC843CF080E000A5E0F01197CA4CB08C5877546481D2"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/tests/V154EndlessCheatIsolationTest.gd.uid",
+    "sha256": "DF19B4B42A25753EA1D8BFB7DF29F25E1335C8292A3012B63FEBB2387C55E0BE"
+  },
+  {
+    "bytes": 205,
+    "path": "GodotProject/tests/V154EndlessCheatIsolationTest.tscn",
+    "sha256": "6F55B0286A4E1C6C5D2CEA5FEA44508E93262DB8DD782047287F6868A6C05C86"
+  },
+  {
+    "bytes": 8899,
+    "path": "GodotProject/tests/V154EvidenceCapture.gd",
+    "sha256": "F25E08BE11B0F68A5976ADACDDB7516A4B8B5AE4E1BC10F85D995ADB858373FE"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V154EvidenceCapture.gd.uid",
+    "sha256": "8F131AA46AAB3B5B7983C24B9689CCE72B206452542F9C8CC918A7239178AFD5"
+  },
+  {
+    "bytes": 185,
+    "path": "GodotProject/tests/V154EvidenceCapture.tscn",
+    "sha256": "BF013F49447F99EB0A167EF4E1D37A2E7C254C17A81549401F0289D8BF23CBAA"
+  },
+  {
+    "bytes": 7557,
+    "path": "GodotProject/tests/V154PlayabilityGateTest.gd",
+    "sha256": "F8697815957CAE27426ECE8D51E62E259F143F62F732AD78C9B897906C3A5B3C"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/tests/V154PlayabilityGateTest.gd.uid",
+    "sha256": "CEA264C4F9628EEC79CC17DCF1BC8F48209E317F55027FD558B1437D5279D26E"
+  },
+  {
+    "bytes": 194,
+    "path": "GodotProject/tests/V154PlayabilityGateTest.tscn",
+    "sha256": "89E38BE1B72134048DCADA70A7F867D78E9F0E45AF7491D84F57297982F59689"
+  },
+  {
+    "bytes": 6015,
+    "path": "GodotProject/tests/V154RegressionTest.gd",
+    "sha256": "F3A062A3FE2E0BE37F1C58FB1FD71F680DCBEAE93E5329CD0DAEAA36A3B7EAAF"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V154RegressionTest.gd.uid",
+    "sha256": "7C86BCD2FA091A3FA04F97929486AACB1DD814E1C69C47BC0575813FAB8A5D3D"
+  },
+  {
+    "bytes": 183,
+    "path": "GodotProject/tests/V154RegressionTest.tscn",
+    "sha256": "DAA17D1D24DE3D4DE847B8CA8750502396669ED863BD0ED440C690F6250DFAAA"
+  },
+  {
+    "bytes": 3618,
+    "path": "GodotProject/tests/V154VoluntaryLiquidationTest.gd",
+    "sha256": "02CE6B0F450CC0E69CCA2955E1249006868867A5FFB2AA7F28FBA190D7CD5C5B"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V154VoluntaryLiquidationTest.gd.uid",
+    "sha256": "14A764A2DD932FEB38B5A5407428044CC9790D533FCDB124BCC7E5812430D425"
+  },
+  {
+    "bytes": 203,
+    "path": "GodotProject/tests/V154VoluntaryLiquidationTest.tscn",
+    "sha256": "C2AF2897219ACB68B342E6BE85678E309D4BAD88499CF994C620A0740D17DC49"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V155DisplayPerformanceSettingsCapture.gd.uid",
+    "sha256": "AA51328167EEE48A066DFEF3B0AA313DA1824D82E927CA96E3FCC9690020CF1E"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V155DisplayPerformanceSettingsTest.gd.uid",
+    "sha256": "028190DCAD7FAF77C8517865FFDA035D03CF1362040B6FFBA65C3EBCC38E457F"
+  },
+  {
+    "bytes": 10885,
+    "path": "GodotProject/tests/V155ExpansionRegressionTest.gd",
+    "sha256": "8640312E1C99A8740AA5C14FC966C4331A94340A256A64C5DFC168965F86B8EE"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V155ExpansionRegressionTest.gd.uid",
+    "sha256": "1D75CD33218320CF22654132DF3BCE6CE40EC6496CE07986F06540ED6BCC9677"
+  },
+  {
+    "bytes": 201,
+    "path": "GodotProject/tests/V155ExpansionRegressionTest.tscn",
+    "sha256": "1B6BF1DB616746A9E4AAB575B09FD5F7F837644635E2E485423FE6E9A7316E45"
+  },
+  {
+    "bytes": 3559,
+    "path": "GodotProject/tests/V155InstitutionUIRegressionTest.gd",
+    "sha256": "EA7A0FF68E375049CDCDDCDD3FE13BCF0820B99AB6260B2330B95790E5FBF53D"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V155InstitutionUIRegressionTest.gd.uid",
+    "sha256": "0AC889F6B01E1B195488FAAB14530D0447BBBEF22B1F512F645BCCE8DBA64B33"
+  },
+  {
+    "bytes": 209,
+    "path": "GodotProject/tests/V155InstitutionUIRegressionTest.tscn",
+    "sha256": "6A74EF821BF5CDC68600D9555C49EC7B4BBDEFD23EE9F40204E3E8777CE6AE55"
+  },
+  {
+    "bytes": 4125,
+    "path": "GodotProject/tests/V155MinimalFrameCapTest.gd",
+    "sha256": "E7650C5CFDCDA9D09F76817BBF507DB3578FBAD048D1A292B1DF21992A9BB2FC"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V155MinimalFrameCapTest.gd.uid",
+    "sha256": "E4D76834968DE9780125D2744F54175F6351A30F7FED8400B73A06003CE41212"
+  },
+  {
+    "bytes": 193,
+    "path": "GodotProject/tests/V155MinimalFrameCapTest.tscn",
+    "sha256": "8A4B9428942ADE3D257FB23B5F6FF3D742465CFB1386B9A7B589C4B402643163"
+  },
+  {
+    "bytes": 6555,
+    "path": "GodotProject/tests/V155MultiSaveSlotsTest.gd",
+    "sha256": "2ADCB9266B998313CCEC21643755280320EF409801067B3107B5DB1D54CAEB82"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V155MultiSaveSlotsTest.gd.uid",
+    "sha256": "FFD1D0BAB7C5B61A0BF69DD33D5A1DF83FFC463960488996DAC1DC9D0EEAF9DD"
+  },
+  {
+    "bytes": 191,
+    "path": "GodotProject/tests/V155MultiSaveSlotsTest.tscn",
+    "sha256": "43ADDEF01CB5CE4022EA1CF1AC83CA2F0E20E99BC65C1BE9C6BE4450CD10E63B"
+  },
+  {
+    "bytes": 2584,
+    "path": "GodotProject/tests/V155SaveSlotUIRegressionTest.gd",
+    "sha256": "1EA4989F4E8EF7DEDD97B918A3549F4F376E798CD554EAC31329AF591472C510"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V155SaveSlotUIRegressionTest.gd.uid",
+    "sha256": "AFAE51C7014B53DC73D2AAE79FC048294C9CEFA88D100B80F222C5E245AA2744"
+  },
+  {
+    "bytes": 203,
+    "path": "GodotProject/tests/V155SaveSlotUIRegressionTest.tscn",
+    "sha256": "EEB799DCC169289A6567C4178F65B776252B9E1F2486D19CBCEC756BF902F7B8"
+  },
+  {
+    "bytes": 4224,
+    "path": "GodotProject/tests/V155UERiverBakeRegressionTest.gd",
+    "sha256": "6BC69D2DCCAE3E98B4F3596D8C1350B6BC3E31D104F7AC7EE73B6E608421083F"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/tests/V155UERiverBakeRegressionTest.gd.uid",
+    "sha256": "69E783AF0C26BC22526B73374386A092A85CCA086E722799300525A6D8C637F5"
+  },
+  {
+    "bytes": 205,
+    "path": "GodotProject/tests/V155UERiverBakeRegressionTest.tscn",
+    "sha256": "D234E4279C9AF1B52904901B113636C5A6669B9515BC110D3E458163ED82A6E3"
+  },
+  {
+    "bytes": 1424,
+    "path": "GodotProject/tests/V155UERiverVisualCapture.gd",
+    "sha256": "514070855C1FDE20446344B4681F24D1E6D6F0513EBCE9F9A674EE7568E37C19"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V155UERiverVisualCapture.gd.uid",
+    "sha256": "765D946C2DA190512F6A0EBB7E5BB941B4CB8EA97B88FE8AFFC884C4858630BE"
+  },
+  {
+    "bytes": 195,
+    "path": "GodotProject/tests/V155UERiverVisualCapture.tscn",
+    "sha256": "F96061F2BAD4DCB2AD9C92C92719767C807F23A2BBB09BD6C2EED3980F18FF3B"
+  },
+  {
+    "bytes": 2128,
+    "path": "GodotProject/tests/V155UEWestBankLandmarkGalleryCapture.gd",
+    "sha256": "FEDE73678B79F0159F1AD936EF6B9ADB568AD098CE9B21EA982A8A99A6E6EB97"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V155UEWestBankLandmarkGalleryCapture.gd.uid",
+    "sha256": "F5C56465F0500BCB3896DB5A36EA38D4DAB72BD66009BD8EF1511D61C25972B2"
+  },
+  {
+    "bytes": 219,
+    "path": "GodotProject/tests/V155UEWestBankLandmarkGalleryCapture.tscn",
+    "sha256": "9ED3C65633A5C92E8918C6AD4B7F9BF270864100F9EE3ADE5B88B0E584047ECF"
+  },
+  {
+    "bytes": 2624,
+    "path": "GodotProject/tests/V155WestBankBrightnessRegressionTest.gd",
+    "sha256": "9242F0917EDAC364EDBEE71FF7A58B7CDB169004B249288657E79D0061666411"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V155WestBankBrightnessRegressionTest.gd.uid",
+    "sha256": "3918A87A9505CC692876EF69D4B0BBB20B62E608A8A99EEAFF94CD86F117114E"
+  },
+  {
+    "bytes": 219,
+    "path": "GodotProject/tests/V155WestBankBrightnessRegressionTest.tscn",
+    "sha256": "77FDB048C6A0B06C9E8262F360E8F72889DA6C17E06021DE7C7C13EB0ECBCF86"
+  },
+  {
+    "bytes": 4844,
+    "path": "GodotProject/tests/V155WestBankLandmarkEligibilityTest.gd",
+    "sha256": "83CEAC81FFA01B5A31C444B70949E4A27716937654563FE065C5FD0D5491C8AC"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V155WestBankLandmarkEligibilityTest.gd.uid",
+    "sha256": "93AD842641168DCD4C79E04E63FA598C249E7069C592C8280F7D98BBAD61EB5A"
+  },
+  {
+    "bytes": 217,
+    "path": "GodotProject/tests/V155WestBankLandmarkEligibilityTest.tscn",
+    "sha256": "1DD748D43633474AAE363FD8ACDC5007428B8C55723730146B4D1811F2363796"
+  },
+  {
+    "bytes": 2266,
+    "path": "GodotProject/tests/V156WestBankAdvancedCardVisualCapture.gd",
+    "sha256": "13575BBD2BB1F26FAA122B22BC994D1E3C2001F9E0856C5D7A347FFC4627B5FC"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/tests/V156WestBankAdvancedCardVisualCapture.gd.uid",
+    "sha256": "A3D7F7C2C588BA72D8B797A827B4479267DD3BA4771CD22E0558C16DB84D96BA"
+  },
+  {
+    "bytes": 221,
+    "path": "GodotProject/tests/V156WestBankAdvancedCardVisualCapture.tscn",
+    "sha256": "9308E6E4941BD4DCCCAB7B2B1A53D530D93ACF26780A758F2A91CAEB65E08ED2"
+  },
+  {
+    "bytes": 11875,
+    "path": "GodotProject/tests/V156WestBankCardsRegressionTest.gd",
+    "sha256": "F38C7B04A624DF6051EC7C8F29203409B41D90F1B50BFD48372DC7AAA77FA3B8"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V156WestBankCardsRegressionTest.gd.uid",
+    "sha256": "416E27137FF85C3312446F6A5AC1720DABA3A11C697EB41CF182ACABC8F2072F"
+  },
+  {
+    "bytes": 209,
+    "path": "GodotProject/tests/V156WestBankCardsRegressionTest.tscn",
+    "sha256": "4E3BB104DBC29C51EC9010EE1817295E790D398955BC7FADA3AACED981314D98"
+  },
+  {
+    "bytes": 11832,
+    "path": "GodotProject/tests/V157RealInputPlaytest.gd",
+    "sha256": "1EE1A4CAC5EAB4905F5FE7339C95C77067BFCF0C2560DBAE8A16EBBAE3ED9B75"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V157RealInputPlaytest.gd.uid",
+    "sha256": "63E247E70BB342E9FD7D3BFD99BF452CE3299535A82C9C03BA768B3A82131DEB"
+  },
+  {
+    "bytes": 189,
+    "path": "GodotProject/tests/V157RealInputPlaytest.tscn",
+    "sha256": "92F73BEBE37965E7939DE4D1B6C560C916DED0923A8CBA7C8087E8B0D27BCAC5"
+  },
+  {
+    "bytes": 2834,
+    "path": "GodotProject/tests/V158HudCycleRegressionTest.gd",
+    "sha256": "A6598C10D3EA65A1EA5935BB3F6045D593E3237DFE6ADEB5270E12AC852F7F99"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V158HudCycleRegressionTest.gd.uid",
+    "sha256": "E9C75E5C6948DC73DCB6C8FFE688D2CDC5239B9FBFB905B39608CEFC99DAE4D0"
+  },
+  {
+    "bytes": 199,
+    "path": "GodotProject/tests/V158HudCycleRegressionTest.tscn",
+    "sha256": "D8C1C3C7C5DAF2AF1D065023938C78E5A532F1DA0142AECBD602526ECE108FB5"
+  },
+  {
+    "bytes": 3010,
+    "path": "GodotProject/tests/V158WestBankBusinessArtRegressionTest.gd",
+    "sha256": "F7B6E9BD9EF5B51C67AB301530D4E33D16F3DC157978091E545FFF94857C9D21"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V158WestBankBusinessArtRegressionTest.gd.uid",
+    "sha256": "7DA6E8C38EC83061EA91FBEFB8775EE2F917D59F47FE966F910E5904FC5FEF53"
+  },
+  {
+    "bytes": 221,
+    "path": "GodotProject/tests/V158WestBankBusinessArtRegressionTest.tscn",
+    "sha256": "489C524920D8599CE783BA8C41F541794E13315E57CEE9B8E43C46501FC89BF1"
+  },
+  {
+    "bytes": 1647,
+    "path": "GodotProject/tests/V158WestBankRiverRegressionTest.gd",
+    "sha256": "990362139782CD63B4D1103F2C6E2EB093949E0D0E897ABA3B1192E61053D600"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V158WestBankRiverRegressionTest.gd.uid",
+    "sha256": "66268E07EBD13C1E9007D949CA985A4601F085E863076FC89386362A82538FB0"
+  },
+  {
+    "bytes": 209,
+    "path": "GodotProject/tests/V158WestBankRiverRegressionTest.tscn",
+    "sha256": "C14ABA2ED29506D4CBE0C1B02120BA5A495EA2268376694395023A68E645DC2C"
+  },
+  {
+    "bytes": 2124,
+    "path": "GodotProject/tests/V158WestBankVehicleRegressionTest.gd",
+    "sha256": "DD8C296B2DBE19C407B3E7E50F18F3E0CD52D0A30E4CA655B459C89C6ABDEE38"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V158WestBankVehicleRegressionTest.gd.uid",
+    "sha256": "E6C96E5CEE626051DEECF507B98A0AE38B24AE4957E3ECAD199CC69F5F0C60AB"
+  },
+  {
+    "bytes": 213,
+    "path": "GodotProject/tests/V158WestBankVehicleRegressionTest.tscn",
+    "sha256": "82AFC204B88B7F79BA76EAD750CD35B15086D7EFC86F79AA7F06B65B22450C1F"
+  },
+  {
+    "bytes": 3992,
+    "path": "GodotProject/tests/V159CardLayoutAndDistrictArtRegressionTest.gd",
+    "sha256": "4D72AC54065ADAD8D41B5247810735E34629C9804C27ACAF963C2BE6DFF85CC4"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/tests/V159CardLayoutAndDistrictArtRegressionTest.gd.uid",
+    "sha256": "17DF6BFC90DAA6E296BFF1750EC2E974CA434F77ECF0E505E47DE1DD00CA0C2C"
+  },
+  {
+    "bytes": 231,
+    "path": "GodotProject/tests/V159CardLayoutAndDistrictArtRegressionTest.tscn",
+    "sha256": "E45609DF3A19D42DA9D397D91BF0B465F5F44A319568EE2B95CBB382366982B4"
+  },
+  {
+    "bytes": 8877,
+    "path": "GodotProject/tests/V160AIDifficultyAndEventsTest.gd",
+    "sha256": "EB8BDDFF3B55AB484E37F56CB54E0020742D7FF3DEFC873FED73E4377080195B"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V160AIDifficultyAndEventsTest.gd.uid",
+    "sha256": "1D8BE9DE46B6FD1017E9D57546200E5C8D2394C08717E060D5BAF50CA6E46C5E"
+  },
+  {
+    "bytes": 203,
+    "path": "GodotProject/tests/V160AIDifficultyAndEventsTest.tscn",
+    "sha256": "20D5F4C192FB7D62F8C5A782F62A84BD61633A78739FD86E8F61142255157A01"
+  },
+  {
+    "bytes": 715,
+    "path": "GodotProject/tests/V160AIDifficultyCapture.gd",
+    "sha256": "4316A213681CFDB051D914D170B194516F2C72341213239908AC80236428AB97"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V160AIDifficultyCapture.gd.uid",
+    "sha256": "F43F0A334880A23EB12401C43FD7CE70AFB6509FB44741DDBDCAEAE15624F082"
+  },
+  {
+    "bytes": 191,
+    "path": "GodotProject/tests/V160AIDifficultyCapture.tscn",
+    "sha256": "93B4A3D8BD7E694CC10F69F322FE9126F6C0DC6B9C2BD5B789D5AFA5E0E7C8C3"
+  },
+  {
+    "bytes": 1840,
+    "path": "GodotProject/tests/V160ColdStartSaveTest.gd",
+    "sha256": "4965E064389C5E395BD50CF7573B8A83EF04BC3FBA31A5C57910458AAF93B97A"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V160ColdStartSaveTest.gd.uid",
+    "sha256": "1C2010F07D84C7A2CA678E880D8C9677E30ADB6B5734F7E7CA25D394CDCD30D2"
+  },
+  {
+    "bytes": 189,
+    "path": "GodotProject/tests/V160ColdStartSaveTest.tscn",
+    "sha256": "D8A79048BD76940A88B45380844E882A38404A6397118FD98665DB15A0ADA8FC"
+  },
+  {
+    "bytes": 1915,
+    "path": "GodotProject/tests/V16CollectionGalleryBenchmark.gd",
+    "sha256": "B2252FF2707E739E441113D8BBBD61689C7807117B30429EBADED5E2298C0E13"
+  },
+  {
+    "bytes": 205,
+    "path": "GodotProject/tests/V16CollectionGalleryBenchmark.tscn",
+    "sha256": "DCEFFD5EC7655D6EBB06F716A05982623235A30B09FEA9E1054A9B9DF5979B4F"
+  },
+  {
+    "bytes": 1102,
+    "path": "GodotProject/tests/V16WestBankCardBackTest.gd",
+    "sha256": "9682D86252952D06AF0EF62BC6F24F501152D77D71BA587BDF5654B0322E6D77"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/tests/V16WestBankCardBackTest.gd.uid",
+    "sha256": "5AE5264ECAEC54CE7A08C439B31C04466DF9485953884723D6AE58082BE0ED22"
+  },
+  {
+    "bytes": 2330,
+    "path": "GodotProject/tests/V16WestBankDraftBackgroundCapture.gd",
+    "sha256": "14C13AFF80FC24DBE73AA3E3C8C0574DB1582ADACA4612B3F9B9DDC7526C2469"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/V16WestBankDraftBackgroundCapture.gd.uid",
+    "sha256": "2BDA7E25C3655FD9E4928BB8DA12EDE55F410587C6FA83993FA820E027036658"
+  },
+  {
+    "bytes": 213,
+    "path": "GodotProject/tests/V16WestBankDraftBackgroundCapture.tscn",
+    "sha256": "5558200FC0DF2FABA0D832D5D1849952690ACB074A801C7540F6B7BC18B4C541"
+  },
+  {
+    "bytes": 8068,
+    "path": "GodotProject/tests/architecture_review/ArchitectureReview.gd",
+    "sha256": "746846E6502E8CE7BC0D250654DFFB5AE77FA3533F414EFEB20221FE89C52A37"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/tests/architecture_review/ArchitectureReview.gd.uid",
+    "sha256": "86E3CC09443892BBF7100F2DC4CED77D0169E910862B5DF9F66194884ECD455C"
+  },
+  {
+    "bytes": 203,
+    "path": "GodotProject/tests/architecture_review/ArchitectureReview.tscn",
+    "sha256": "0F0F1426C7790EE4F82B26E6100211114A7DE1A9536A0B30EC7E6CB53AFF3BD9"
+  },
+  {
+    "bytes": 1322,
+    "path": "GodotProject/tests/architecture_review/ProductionCloseups.gd",
+    "sha256": "273BA00F34129E8E66B559925A4554A77366BD3C6F1E0FDB17026EE01EC27D2F"
+  },
+  {
+    "bytes": 19,
+    "path": "GodotProject/tests/architecture_review/ProductionCloseups.gd.uid",
+    "sha256": "965313484B87722F2779F76BCD4C932346DE4F5C89A79F5C29A9E8068996783C"
+  },
+  {
+    "bytes": 201,
+    "path": "GodotProject/tests/architecture_review/ProductionCloseups.tscn",
+    "sha256": "43C0BAEB2636875357393CA81DBB4609373CF16A29E6EC78A1781AF351137052"
+  },
+  {
+    "bytes": 1479,
+    "path": "GodotProject/tests/architecture_review/ReadableMap.gd",
+    "sha256": "14AC586E51184F670EA23D6298902F7C155C6C4246537033F79AAB15317E33DF"
+  },
+  {
+    "bytes": 20,
+    "path": "GodotProject/tests/architecture_review/ReadableMap.gd.uid",
+    "sha256": "EDEE9BF2F1389B5CFE66F814A16221649A72B7A242393C567DA74E1196E9EBF8"
+  },
+  {
+    "bytes": 187,
+    "path": "GodotProject/tests/architecture_review/ReadableMap.tscn",
+    "sha256": "9A58F160A66859E6EEB25067D3031167AE271335B7F4CAAD60536F6D8A46A4D3"
+  }
+]
